@@ -1,13 +1,10 @@
 {
-  "name": "the-bookshelf-app",
+  "name": "redux-cra",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "http": "0.0.0",
-    "jQuery": "^1.7.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-materialize": "^2.6.0",
     "react-redux": "^5.0.7",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"

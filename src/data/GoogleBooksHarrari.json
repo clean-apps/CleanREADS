@@ -1,0 +1,963 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 1794,
+    "items": [
+     {
+      "kind": "books#volume",
+      "id": "dWYyCwAAQBAJ",
+      "etag": "OUx0BxZyuG0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/dWYyCwAAQBAJ",
+      "volumeInfo": {
+       "title": "Homo Deus",
+       "subtitle": "A Brief History of Tomorrow",
+       "authors": [
+        "Yuval Noah Harari"
+       ],
+       "publisher": "Random House",
+       "publishedDate": "2016-09-08",
+       "description": "THE MILLION COPY BESTSELLER Sapiens shows us where we came from. Homo Deus shows us where we’re going. Yuval Noah Harari envisions a near future in which we face a new set of challenges. Homo Deus explores the projects, dreams and nightmares that will shape the twenty-first century and beyond – from overcoming death to creating artificial life. It asks the fundamental questions: how can we protect this fragile world from our own destructive power? And what does our future hold? 'Homo Deus will shock you. It will entertain you. It will make you think in ways you had not thought before’ Daniel Kahneman",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781473545373"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1473545374"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": false
+       },
+       "pageCount": 528,
+       "printType": "BOOK",
+       "categories": [
+        "Social Science"
+       ],
+       "averageRating": 4.0,
+       "ratingsCount": 17,
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": true,
+       "contentVersion": "1.34.28.0.preview.2",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=dWYyCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=dWYyCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.co.in/books?id=dWYyCwAAQBAJ&printsec=frontcover&dq=harrari&hl=&cd=1&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=dWYyCwAAQBAJ&source=gbs_api",
+       "canonicalVolumeLink": "https://market.android.com/details?id=book-dWYyCwAAQBAJ"
+      },
+      "saleInfo": {
+       "country": "IN",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 424.0,
+        "currencyCode": "INR"
+       },
+       "retailPrice": {
+        "amount": 296.8,
+        "currencyCode": "INR"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=dWYyCwAAQBAJ&rdid=book-dWYyCwAAQBAJ&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 4.24E8,
+          "currencyCode": "INR"
+         },
+         "retailPrice": {
+          "amountInMicros": 2.968E8,
+          "currencyCode": "INR"
+         }
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "IN",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.in/books/download/Homo_Deus-sample-epub.acsm?id=dWYyCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": false
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=dWYyCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "THE MILLION COPY BESTSELLER Sapiens shows us where we came from. Homo Deus shows us where we’re going. Yuval Noah Harari envisions a near future in which we face a new set of challenges."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "1EiJAwAAQBAJ",
+      "etag": "QRpiFGMTUJI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/1EiJAwAAQBAJ",
+      "volumeInfo": {
+       "title": "Sapiens",
+       "subtitle": "A Brief History of Humankind",
+       "authors": [
+        "Yuval Noah Harari"
+       ],
+       "publisher": "Random House",
+       "publishedDate": "2014-09-04",
+       "description": "THE MILLION COPY BESTSELLER Fire gave us power. Farming made us hungry for more. Money gave us purpose. Science made us deadly. This is the thrilling account of our extraordinary history – from insignificant apes to rulers of the world. Earth is 4.5 billion years old. In just a fraction of that time, one species among countless others has conquered it: us. In this bold and provocative book, Yuval Noah Harari explores who we are, how we got here and where we’re going. ‘I would recommend Sapiens to anyone who’s interested in the history and future of our species’ Bill Gates",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781448190690"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "144819069X"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": false
+       },
+       "pageCount": 512,
+       "printType": "BOOK",
+       "categories": [
+        "History"
+       ],
+       "averageRating": 4.0,
+       "ratingsCount": 70,
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": true,
+       "contentVersion": "1.21.20.0.preview.2",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=1EiJAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=1EiJAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.co.in/books?id=1EiJAwAAQBAJ&printsec=frontcover&dq=harrari&hl=&cd=2&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=1EiJAwAAQBAJ&source=gbs_api",
+       "canonicalVolumeLink": "https://market.android.com/details?id=book-1EiJAwAAQBAJ"
+      },
+      "saleInfo": {
+       "country": "IN",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 594.0,
+        "currencyCode": "INR"
+       },
+       "retailPrice": {
+        "amount": 232.75,
+        "currencyCode": "INR"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=1EiJAwAAQBAJ&rdid=book-1EiJAwAAQBAJ&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 5.94E8,
+          "currencyCode": "INR"
+         },
+         "retailPrice": {
+          "amountInMicros": 2.3275E8,
+          "currencyCode": "INR"
+         }
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "IN",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.in/books/download/Sapiens-sample-epub.acsm?id=1EiJAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": false
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=1EiJAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "THE MILLION COPY BESTSELLER Fire gave us power. Farming made us hungry for more. Money gave us purpose. Science made us deadly. This is the thrilling account of our extraordinary history – from insignificant apes to rulers of the world."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "ar44DwAAQBAJ",
+      "etag": "cbWH+4uTyLg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ar44DwAAQBAJ",
+      "volumeInfo": {
+       "title": "21 Lessons for the 21st Century",
+       "authors": [
+        "Yuval Noah Harari"
+       ],
+       "publisher": "Random House",
+       "publishedDate": "2018-08-30",
+       "description": "**THE NUMBER ONE BESTSELLER** Sapiens showed us where we came from. Homo Deus looked to the future. 21 Lessons for the 21st Century explores the present. How can we protect ourselves from nuclear war, ecological cataclysms and technological disruptions? What can we do about the epidemic of fake news or the threat of terrorism? What should we teach our children? Yuval Noah Harari takes us on a thrilling journey through today’s most urgent issues. The golden thread running through his exhilarating new book is the challenge of maintaining our collective and individual focus in the face of constant and disorienting change. Are we still capable of understanding the world we have created?",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781473554719"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1473554713"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": false
+       },
+       "pageCount": 368,
+       "printType": "BOOK",
+       "categories": [
+        "History"
+       ],
+       "averageRating": 3.5,
+       "ratingsCount": 14,
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": true,
+       "contentVersion": "1.3.4.0.preview.2",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=ar44DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=ar44DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.co.in/books?id=ar44DwAAQBAJ&printsec=frontcover&dq=harrari&hl=&cd=3&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=ar44DwAAQBAJ&source=gbs_api",
+       "canonicalVolumeLink": "https://market.android.com/details?id=book-ar44DwAAQBAJ"
+      },
+      "saleInfo": {
+       "country": "IN",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 679.0,
+        "currencyCode": "INR"
+       },
+       "retailPrice": {
+        "amount": 366.66,
+        "currencyCode": "INR"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=ar44DwAAQBAJ&rdid=book-ar44DwAAQBAJ&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 6.79E8,
+          "currencyCode": "INR"
+         },
+         "retailPrice": {
+          "amountInMicros": 3.6666E8,
+          "currencyCode": "INR"
+         }
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "IN",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.in/books/download/21_Lessons_for_the_21st_Century-sample-epub.acsm?id=ar44DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": false
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=ar44DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "What can we do about the epidemic of fake news or the threat of terrorism? What should we teach our children? Yuval Noah Harari takes us on a thrilling journey through today’s most urgent issues."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "9KlV-9iqCfkC",
+      "etag": "uaXcTpKkKg0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/9KlV-9iqCfkC",
+      "volumeInfo": {
+       "title": "Star Trek: The Children of Kings",
+       "authors": [
+        "David Stern"
+       ],
+       "publisher": "Simon and Schuster",
+       "publishedDate": "2012-12-11",
+       "description": "A distress call goes out from a Federation outpost near the Klingon border. The U.S.S. Enterprise, under the command of Captain Christopher Pike, responds. Starbase 18 lies in ruin. There are no survivors. And there is no clue as to who is responsible for the attack, until Captain Pike's brilliant science officer discovers a means of retrieving parts of the station's log. Lieutenant Spock has detected signs of a unique energy signature, one that he believes is Klingon. There are unsubstantiated reports that the Klingon Empire has made a technological leap forward and created a cloaking device—code-named Black Snow Seven—that can shield their ships from even the most advanced sensors. The destruction of the base and the unique energy signature that remains prove that the Empire has succeeded. For generations the Orions have been known as pirates,operating at the margins, outside of legal conventions. A proud and powerful race, the Orions were once a major force in the sector, and they have been using the tension between the Klingon Empire and the Federation to rebuild their power. Captain Pike is charged with trying to foster cooperation between the Orions and the Federation. A distress call from an Orion vessel offers him the perfect opportunity. But the Orion ship lies in disputed space long claimed by the Klingon Empire, and crossing it could be the spark that sets off an interstellar war.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781471109744"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1471109747"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": false
+       },
+       "pageCount": 416,
+       "printType": "BOOK",
+       "categories": [
+        "Fiction"
+       ],
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": false,
+       "contentVersion": "0.1.1.0.preview.2",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=9KlV-9iqCfkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=9KlV-9iqCfkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.co.in/books?id=9KlV-9iqCfkC&pg=PT114&dq=harrari&hl=&cd=4&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=9KlV-9iqCfkC&source=gbs_api",
+       "canonicalVolumeLink": "https://market.android.com/details?id=book-9KlV-9iqCfkC"
+      },
+      "saleInfo": {
+       "country": "IN",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 328.04,
+        "currencyCode": "INR"
+       },
+       "retailPrice": {
+        "amount": 229.63,
+        "currencyCode": "INR"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=9KlV-9iqCfkC&rdid=book-9KlV-9iqCfkC&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 3.2804E8,
+          "currencyCode": "INR"
+         },
+         "retailPrice": {
+          "amountInMicros": 2.2963E8,
+          "currencyCode": "INR"
+         }
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "IN",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.in/books/download/Star_Trek_The_Children_of_Kings-sample-epub.acsm?id=9KlV-9iqCfkC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": false
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=9KlV-9iqCfkC&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "\u003cb\u003eHarrari\u003c/b\u003e smiled. “Whose toast is this, Dmitri? Mine or yours?” Vlasidovich bowed. “\u003cbr\u003e\nYours, of course. Forgive me.” “Thank you. To peace, then.” Everyone drank, \u003cbr\u003e\nsome with noticeably less enthusiasm than others. Spock could not entirely&nbsp;..."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "E-dNDQAAQBAJ",
+      "etag": "vMmBboo6gzQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/E-dNDQAAQBAJ",
+      "volumeInfo": {
+       "title": "Between the Rule of Law and States of Emergency",
+       "subtitle": "The Fluid Jurisprudence of the Israeli Regime",
+       "authors": [
+        "Yoav Mehozay"
+       ],
+       "publisher": "SUNY Press",
+       "publishedDate": "2016-10-20",
+       "description": "Raises concerns about the degree to which the rule of law and emergency powers have become fundamentally entangled, using Israel as a case study. Contemporary debates on states of emergency have focused on whether law can regulate emergency powers, if at all. These studies base their analyses on the premise that law and emergency are at odds with each other. In Between the Rule of Law and States of Emergency, Yoav Mehozay offers a fundamentally different approach, demonstrating that law and emergency are mutually reinforcing paradigms that compensate for each other’s shortcomings. Through a careful dissection of Israel’s emergency apparatus, Mehozay illustrates that the reach of Israel’s emergency regime goes beyond defending the state and its people against acts of terror. In fact, that apparatus has had a far greater impact on Israel’s governing system, and society as a whole, than has traditionally been understood. Mehozay pushes us to think about emergency powers beyond the “war on terror” and consider the role of emergency with regard to realms such as political economy.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781438463407"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1438463405"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": true
+       },
+       "pageCount": 220,
+       "printType": "BOOK",
+       "categories": [
+        "Law"
+       ],
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": false,
+       "contentVersion": "1.1.1.0.preview.3",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=E-dNDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=E-dNDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.co.in/books?id=E-dNDQAAQBAJ&pg=PA35&dq=harrari&hl=&cd=5&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=E-dNDQAAQBAJ&source=gbs_api",
+       "canonicalVolumeLink": "https://market.android.com/details?id=book-E-dNDQAAQBAJ"
+      },
+      "saleInfo": {
+       "country": "IN",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 1490.1,
+        "currencyCode": "INR"
+       },
+       "retailPrice": {
+        "amount": 745.05,
+        "currencyCode": "INR"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=E-dNDQAAQBAJ&rdid=book-E-dNDQAAQBAJ&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 1.4901E9,
+          "currencyCode": "INR"
+         },
+         "retailPrice": {
+          "amountInMicros": 7.4505E8,
+          "currencyCode": "INR"
+         }
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "IN",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.in/books/download/Between_the_Rule_of_Law_and_States_of_Em-sample-epub.acsm?id=E-dNDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.in/books/download/Between_the_Rule_of_Law_and_States_of_Em-sample-pdf.acsm?id=E-dNDQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=E-dNDQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "Following the Transition Law, by which the constituent assembly became a \u003cbr\u003e\nlegislative assembly, the Knesset also adopted a compromise, the \u003cb\u003eHarrari\u003c/b\u003e \u003cbr\u003e\nResolution,26 named after the Knesset Member (MK) who sponsored it. The \u003cbr\u003e\n\u003cb\u003eHarrari\u003c/b\u003e&nbsp;..."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "jF2qCQAAQBAJ",
+      "etag": "eBkuEvzFIms",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/jF2qCQAAQBAJ",
+      "volumeInfo": {
+       "title": "Clee's Odyssey",
+       "subtitle": "",
+       "authors": [
+        "Carl Fox"
+       ],
+       "publisher": "Page Publishing Inc",
+       "publishedDate": "2015-05-26",
+       "description": "Clee DeVoss, a High School girl from a small Kansas town has the dream of traveling the world and visiting exotic places. After finishing high school, she meets a handsome and suave Iranian student and falls in love. Against all dire warnings, they get married and produce two little girls. Clee and her daughters are invited by the husband’s family to go live with them in Iran while her husband remains in the States to finish his college degree. Clee goes to Iran to live with her in-law’s. The father-in-law rules the family with an iron fist. Clee has always worked and enjoyed working, but now she is not allowed to work and must stay home with the children. After a year, the father-in-law agrees to allow Clee and her sister-in-law return to the states to finish their degrees. Back in the states, Clee discovers that her husband is working only halfheartedly on his degree and has become deeply involved in Iranian student groups and politics. They move several times, to different states, different colleges. During this period, Clee and her Iranian husband have a strained relationship. Her skirts and her hair are too short, the children are too obstreperous and he can't study. There is great stress on the marriage. Finally Clee finishes her degree in education and her sister-in-law finishes her doctorate in microbiology. They had lived together during the college experience and mostly away from their husbands. They have become great friends, like sisters, and they return to Iran. They finally win the approval of the father-in-law to work: the sister-in-law as a lab scientist in microbiology and Clee as an instructor, teaching English as a second language to the Shah’s elite jet pilots. Clee’s husband is still going to college in the states, and still deeply involved in Iranian politics, while she is living in Iran with her Iranian family and teaching. After, several years, Clee meets an American man who has passionately vowed to never again get involved with any woman. He is in Iran temporarily to help install a large-scale computer for the Shah’s Air Force. Even though it was not their intent, they meet and fall in love. She comes to the States. Her husband is still mired in Iranian politics. She divorces her husband and marries the American man. Her new husband gets a foreign service assignment in Iran and they return to Iran, but Clee’s divorce is not recognized in Iran nor is her American passport: she is still Iranian according to Iranian law. Also, the children’s entry and exit permits are still under control of the grandfather or the father, divorced or not. Problems abound, but are dealt with. They finish the three-year Iranian assignment and over the next three decades, are given more foreign assignments in Holland, Germany, and China. They and the children, have an amazing fairytale life. In 2000 Clee is diagnosed with Alzheimer’s. Clee fights the disease with ferocity. To help her mind, she enrolls in writing courses. Over the next three years, she writes many life stories for her writing assignments. Collectively, they comprise her partial memoir. Her husband was not aware of the extent of her writing. She slowly loses her cognition and dies in 2013. Her husband finds her stories on her computer and publishes them, extending the overall story and filling in gaps. Through it all, Clee paints Iran, the country, and its people, in a positive light.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781634179591"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1634179595"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": true
+       },
+       "pageCount": 468,
+       "printType": "BOOK",
+       "categories": [
+        "Biography & Autobiography"
+       ],
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": false,
+       "contentVersion": "1.3.2.0.preview.3",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=jF2qCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=jF2qCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.co.in/books?id=jF2qCQAAQBAJ&pg=PT40&dq=harrari&hl=&cd=6&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=jF2qCQAAQBAJ&source=gbs_api",
+       "canonicalVolumeLink": "https://market.android.com/details?id=book-jF2qCQAAQBAJ"
+      },
+      "saleInfo": {
+       "country": "IN",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 725.03,
+        "currencyCode": "INR"
+       },
+       "retailPrice": {
+        "amount": 362.52,
+        "currencyCode": "INR"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=jF2qCQAAQBAJ&rdid=book-jF2qCQAAQBAJ&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 7.2503E8,
+          "currencyCode": "INR"
+         },
+         "retailPrice": {
+          "amountInMicros": 3.6252E8,
+          "currencyCode": "INR"
+         }
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "IN",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.in/books/download/Clee_s_Odyssey-sample-epub.acsm?id=jF2qCQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.in/books/download/Clee_s_Odyssey-sample-pdf.acsm?id=jF2qCQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=jF2qCQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "\u003cb\u003eHarrari\u003c/b\u003e was an officer in the Iranian army. Moluk Jahn was a nurse and worked in \u003cbr\u003e\na military hospital. One day they brought in an injured man, Agha \u003cb\u003eHarrari\u003c/b\u003e. I can&#39;t \u003cbr\u003e\nremember what the injury was, but it was not serious. Moluk Jahn was on duty&nbsp;..."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "_iLhswEACAAJ",
+      "etag": "EcV3KhY+IDg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/_iLhswEACAAJ",
+      "volumeInfo": {
+       "title": "The Rise of Humans",
+       "authors": [
+        "David West"
+       ],
+       "publisher": "Smart Apple Media",
+       "publishedDate": "2015-09",
+       "description": "This dynamic series takes readers into the thrilling and frightening world of prehistoric Earth. This volume, focused on the early days of ancient humans, is filled with lush, vivid illustrations that portray the Earth and its inhabitants at this time, accompanied by a lively and informative narrative. Special features include timelines, labeled illustrations, and scaled illustrations that demonstrate comparative sizes.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_10",
+         "identifier": "1625881142"
+        },
+        {
+         "type": "ISBN_13",
+         "identifier": "9781625881144"
+        }
+       ],
+       "readingModes": {
+        "text": false,
+        "image": false
+       },
+       "pageCount": 32,
+       "printType": "BOOK",
+       "categories": [
+        "Juvenile Nonfiction"
+       ],
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": false,
+       "contentVersion": "preview-1.0.0",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=_iLhswEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=_iLhswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.co.in/books?id=_iLhswEACAAJ&dq=harrari&hl=&cd=7&source=gbs_api",
+       "infoLink": "http://books.google.co.in/books?id=_iLhswEACAAJ&dq=harrari&hl=&source=gbs_api",
+       "canonicalVolumeLink": "https://books.google.com/books/about/The_Rise_of_Humans.html?hl=&id=_iLhswEACAAJ"
+      },
+      "saleInfo": {
+       "country": "IN",
+       "saleability": "NOT_FOR_SALE",
+       "isEbook": false
+      },
+      "accessInfo": {
+       "country": "IN",
+       "viewability": "NO_PAGES",
+       "embeddable": false,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED",
+       "epub": {
+        "isAvailable": false
+       },
+       "pdf": {
+        "isAvailable": false
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=_iLhswEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "NONE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "This dynamic series takes readers into the thrilling and frightening world of prehistoric Earth."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "hbAzDwAAQBAJ",
+      "etag": "nckMrXHGOMs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/hbAzDwAAQBAJ",
+      "volumeInfo": {
+       "title": "Money",
+       "subtitle": "Vintage Minis",
+       "authors": [
+        "Yuval Noah Harari"
+       ],
+       "publisher": "Random House",
+       "publishedDate": "2018-04-05",
+       "description": "Selected from the books Sapiens and Homo Deus by Yuval Noah Harari How did money come to be invented? Why does it now have such significance in our lives? Does it make us happier or unhappier? And what does the future hold for it? With brilliant clarity and insight, Yuval Noah Harari takes the reader on a journey from the very first coins through to 21st century economics and shows us how we are all on the brink of a revolution, whether we like it or not. VINTAGE MINIS: GREAT MINDS. BIG IDEAS. LITTLE BOOKS. A series of short books by the world’s greatest writers on the experiences that make us human Also in the Vintage Minis series: Home by Salman Rushdie Babies by Anne Enright Eating by Nigella Lawson Drinking by John Cheever",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781473556041"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "147355604X"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": false
+       },
+       "pageCount": 144,
+       "printType": "BOOK",
+       "categories": [
+        "Social Science"
+       ],
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": true,
+       "contentVersion": "1.3.4.0.preview.2",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=hbAzDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=hbAzDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.co.in/books?id=hbAzDwAAQBAJ&printsec=frontcover&dq=harrari&hl=&cd=8&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=hbAzDwAAQBAJ&source=gbs_api",
+       "canonicalVolumeLink": "https://market.android.com/details?id=book-hbAzDwAAQBAJ"
+      },
+      "saleInfo": {
+       "country": "IN",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 125.0,
+        "currencyCode": "INR"
+       },
+       "retailPrice": {
+        "amount": 103.55,
+        "currencyCode": "INR"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=hbAzDwAAQBAJ&rdid=book-hbAzDwAAQBAJ&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 1.25E8,
+          "currencyCode": "INR"
+         },
+         "retailPrice": {
+          "amountInMicros": 1.0355E8,
+          "currencyCode": "INR"
+         }
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "IN",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.in/books/download/Money-sample-epub.acsm?id=hbAzDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": false
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=hbAzDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "Selected from the books Sapiens and Homo Deus by Yuval Noah Harari How did money come to be invented?"
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "OGAyDwAAQBAJ",
+      "etag": "HBnWP+Mlsuc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/OGAyDwAAQBAJ",
+      "volumeInfo": {
+       "title": "Love Thy Body",
+       "subtitle": "Answering Hard Questions about Life and Sexuality",
+       "authors": [
+        "Nancy R. Pearcey"
+       ],
+       "publisher": "Baker Books",
+       "publishedDate": "2018-01-02",
+       "description": "Why the call to Love Thy Body? To counter a pervasive hostility toward the body and biology that drives today's headline stories: Transgenderism: Activists detach gender from biology. Kids down to kindergarten are being taught their bodies are irrelevant. Is this affirming--or does it demean the body? Homosexuality: Advocates disconnect sexuality from biological identity. Is this liberating--or does it denigrate biology? Abortion: Supporters deny the fetus is a person, though it is biologically human. Does this mean equality for women--or does it threaten the intrinsic value of all humans? Euthanasia: Those who lack certain cognitive abilities are said to be no longer persons. Is this compassionate--or does it ultimately put everyone at risk? In Love Thy Body, bestselling author Nancy Pearcey goes beyond politically correct slogans with a riveting exposé of the dehumanizing worldview that shapes current watershed moral issues. Pearcey then turns the tables on media boilerplate that misportrays Christianity as harsh or hateful. A former agnostic, she makes a surprising and persuasive case that Christianity is holistic, sustaining the dignity of the body and biology. Throughout she entrances readers with compassionate stories of people wrestling with hard questions in their own lives--their pain, their struggles, their triumphs. \"Liberal secularist ideology rests on a mistake and Nancy Pearcey in her terrific new book puts her finger right on it. In embracing abortion, euthanasia, homosexual conduct and relationships, transgenderism, and the like, liberal secularism . . . is philosophically as well as theologically untenable.\"--Robert P. George, Princeton University \"Wonderful guide.\"--Sam Allberry, author, Is God Anti-Gay? \"A must-read.\"--Rosaria Butterfield, former professor, Syracuse University; author, The Secret Thoughts of an Unlikely Convert \"An astute but accessible analysis of the intellectual roots of the most important moral ills facing us today: abortion, euthanasia, and redefining the family.\"--Richard Weikart, California State University, Stanislaus \"Highly readable, insightful, and informative.\"--Mary Poplin, Claremont Graduate University; author, Is Reality Secular? \"Unmasks the far-reaching practical consequences of mind-body dualism better than anyone I have ever seen.\"--Jennifer Roback Morse, founder and president, The Ruth Institute \"Love Thy Body richly enhances the treasure box that is Pearcey's collective work.\"--Glenn T. Stanton, Focus on the Family \"Essential reading . . . Love Thy Body brings clarity and understanding to the multitude of complex and confusing views in discussions about love and sexuality.\"--Becky Norton Dunlop, Ronald Reagan Distinguished Fellow, The Heritage Foundation \"Pearcey gets straight to the issue of our day: What makes humans valuable in the first place? You must get this book. Don't just read it. Master it.\"--Scott Klusendorf, president, Life Training Institute",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781493412822"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1493412825"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": true
+       },
+       "pageCount": 336,
+       "printType": "BOOK",
+       "categories": [
+        "Religion"
+       ],
+       "averageRating": 5.0,
+       "ratingsCount": 2,
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": true,
+       "contentVersion": "1.8.9.0.preview.3",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=OGAyDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=OGAyDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.co.in/books?id=OGAyDwAAQBAJ&pg=PT92&dq=harrari&hl=&cd=9&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=OGAyDwAAQBAJ&source=gbs_api",
+       "canonicalVolumeLink": "https://market.android.com/details?id=book-OGAyDwAAQBAJ"
+      },
+      "saleInfo": {
+       "country": "IN",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 597.08,
+        "currencyCode": "INR"
+       },
+       "retailPrice": {
+        "amount": 298.54,
+        "currencyCode": "INR"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=OGAyDwAAQBAJ&rdid=book-OGAyDwAAQBAJ&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 5.9708E8,
+          "currencyCode": "INR"
+         },
+         "retailPrice": {
+          "amountInMicros": 2.9854E8,
+          "currencyCode": "INR"
+         }
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "IN",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.in/books/download/Love_Thy_Body-sample-epub.acsm?id=OGAyDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.in/books/download/Love_Thy_Body-sample-pdf.acsm?id=OGAyDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=OGAyDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "Yuval \u003cb\u003eHarrari\u003c/b\u003e, author of the international bestseller Sapiens: A Brief History of \u003cbr\u003e\nHumankind, argues that if you accept that life evolved by material processes (\u003cbr\u003e\nwhich he does), there is no logical basis for human rights. Consider the \u003cbr\u003e\nDeclaration of&nbsp;..."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "sY02DwAAQBAJ",
+      "etag": "8rSsQVjQtQM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/sY02DwAAQBAJ",
+      "volumeInfo": {
+       "title": "Unlocking Greatness",
+       "subtitle": "The Unexpected Journey from the Life You Have to the Life You Want",
+       "authors": [
+        "Charlie Harary",
+        "Mark Dagostino"
+       ],
+       "publisher": "Rodale Books",
+       "publishedDate": "2018-03-13",
+       "description": "A guide to successfully getting the life you want by changing your perspective and discovering your ideal self. More often than not, our own mental obstacles are holding us back from the joy, fulfillment, and meaning that we all crave, but by retooling our perspectives, we gain the ability to see the path toward the life we truly desire. Charlie Harary, business executive, professor, speaker, and radio host, combines the wisdom of science, spirituality, and personal growth in practical and understandable terms so you can take the life you have and make it the life you want. Everyone has the extraordinary capacity to transform their life. And it’s easier to do than you might think—in order to get what you want, to achieve that sense of greater life satisfaction, all you need to do is learn how to best use the resources you already have. Based on the latest research into the brain’s neuroplasticity, analysis of ancient wisdom, and exploration of the practices of today’s greatest achievers, Harary offers guidance and inspiration so you can break through the clutter and confusion of your life and find your true purpose.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781623369774"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1623369770"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": false
+       },
+       "pageCount": 288,
+       "printType": "BOOK",
+       "categories": [
+        "Self-Help"
+       ],
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": true,
+       "contentVersion": "2.5.4.0.preview.2",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=sY02DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=sY02DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.co.in/books?id=sY02DwAAQBAJ&printsec=frontcover&dq=harrari&hl=&cd=10&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=sY02DwAAQBAJ&source=gbs_api",
+       "canonicalVolumeLink": "https://market.android.com/details?id=book-sY02DwAAQBAJ"
+      },
+      "saleInfo": {
+       "country": "IN",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 1528.1,
+        "currencyCode": "INR"
+       },
+       "retailPrice": {
+        "amount": 1528.1,
+        "currencyCode": "INR"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=sY02DwAAQBAJ&rdid=book-sY02DwAAQBAJ&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 1.5281E9,
+          "currencyCode": "INR"
+         },
+         "retailPrice": {
+          "amountInMicros": 1.5281E9,
+          "currencyCode": "INR"
+         }
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "IN",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.in/books/download/Unlocking_Greatness-sample-epub.acsm?id=sY02DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": false
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=sY02DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "Based on the latest research into the brain’s neuroplasticity, analysis of ancient wisdom, and exploration of the practices of today’s greatest achievers, Harary offers guidance and inspiration so you can break through the clutter and ..."
+      }
+     }
+    ]
+   }
+   
