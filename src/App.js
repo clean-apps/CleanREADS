@@ -37,7 +37,7 @@ class App extends Component {
     this.props.get_fav_books_action();
   }
 
-  brand = 'My Books';
+  brand = 'Clean Reads';
   nav_items = {
       'Getting Started':  (event) => { this.props.simpleAction(); },
       'Components': (event) => { this.props.simpleAction(); }
@@ -56,8 +56,14 @@ class App extends Component {
     return (
       <div className="App">
         <NavHeader title={this.brand} nav={this.nav_items} />
+
+        <p className="title_header">Favorites</p>
         <BooksTable books={this.props.books_list.fav_books} />
+
+        <p className="title_header">Categories</p>
         <CategoryTable categories={this.category_items} />
+
+        <p className="title_header">Recently Added</p>
         <BooksList books={this.props.books_list.all_books} />
         <Fab onClick={this.simpleAction} />
       </div>

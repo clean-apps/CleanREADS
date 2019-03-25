@@ -5,9 +5,18 @@ class BooksTable extends Component {
 
     _getListItem( each_book, index ){
 
-        return  <div key={index} className="tile">
-                    <img src={each_book.volumeInfo.imageLinks.smallThumbnail}/><br/>
-                    <b className="fav_titles">{each_book.volumeInfo.title}</b>
+        var maxLength = 22 // maximum number of characters to extract
+        var title = each_book.volumeInfo.title;
+        var trimmedTitle = title;
+        if( title.length >= maxLength ){
+            var trimmedTitle = title.substr(0, maxLength);
+            trimmedTitle = title.substr(0, Math.min(trimmedTitle.length, trimmedTitle.lastIndexOf(" ")))
+            trimmedTitle += '...'
+        }
+
+        return  <div className="tile" key={index}>
+                    <img className="book_thumbnail" src={each_book.volumeInfo.imageLinks.smallThumbnail}/><br/>
+                    <b className="fav_titles">{trimmedTitle}</b>
                 </div>
     }
 
