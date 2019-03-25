@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import Fab from './components/Fab';
-import NavHeader from './components/NavHeader';
+import Fab from './components/FloatingActionButton';
+import Nav from './components/NavActionBar';
 import BooksList from './components/BooksList';
 import BooksTable from './components/BooksTable';
 import CategoryTable from './components/CategoryTable';
@@ -38,9 +38,9 @@ class App extends Component {
   }
 
   brand = 'Clean Reads';
-  nav_items = {
-      'Getting Started':  (event) => { this.props.simpleAction(); },
-      'Components': (event) => { this.props.simpleAction(); }
+  list_items = {
+      'mylist1':  (event) => { this.props.simpleAction(); },
+      'mylist2': (event) => { this.props.simpleAction(); }
   };
 
   category_items = {
@@ -55,7 +55,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <NavHeader title={this.brand} nav={this.nav_items} />
+        <Nav title={this.brand} lists={this.list_items} categories={this.category_items} />
 
         <p className="title_header">Favorites</p>
         <BooksTable books={this.props.books_list.fav_books} />

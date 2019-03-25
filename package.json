@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
     "http": "0.0.0",
-    "jQuery": "^1.7.4",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-materialize": "^2.6.0",
-    "react-redux": "^5.0.7",
-    "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0"
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "redux": "^4.0.1",
+    "react-redux": "^6.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "react-scripts": "1.1.1"

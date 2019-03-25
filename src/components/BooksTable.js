@@ -5,7 +5,7 @@ class BooksTable extends Component {
 
     _getListItem( each_book, index ){
 
-        var maxLength = 22 // maximum number of characters to extract
+        var maxLength = 25; // maximum number of characters to extract
         var title = each_book.volumeInfo.title;
         var trimmedTitle = title;
         if( title.length >= maxLength ){
