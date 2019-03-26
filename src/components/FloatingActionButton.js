@@ -10,7 +10,6 @@ const styles = theme => ({
     bottom: theme.spacing.unit * 4,
     left: 'auto',
     position: 'fixed',
-    background: 'red',
   }
 });
 
@@ -20,7 +19,7 @@ class FloatingActionButton extends Component {
 
       const { classes } = this.props;
       return (
-        <Fab color="primary" aria-label="Add" className={classes.fab} onClick={this.props.onClick}>
+        <Fab color="secondary" aria-label="Add" className={classes.fab} onClick={this.props.onClick}>
           <AddIcon />
         </Fab>
       );

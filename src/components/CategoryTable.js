@@ -10,13 +10,14 @@ const styles = {
     },    
     icon: {
         fontSize: 60,
-        color: 'darkred',
+        color: 'darkgrey',
         width: 80,
         height: 80,
     },
     icon_label: {
         fontWeight: 100,
         marginTop: 0,
+        color: 'darkgrey',
     },
     tile: {
         paddingTop: 20,

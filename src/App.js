@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-
+import CssBaseline from '@material-ui/core/CssBaseline';
 import Fab from './components/FloatingActionButton';
 import Nav from './components/NavActionBar';
 import BooksList from './components/BooksList';
@@ -55,6 +55,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <CssBaseline />
         <Nav title={this.brand} lists={this.list_items} categories={this.category_items} />
 
         <p className="title_header">Favorites</p>

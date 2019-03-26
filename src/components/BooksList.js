@@ -6,13 +6,15 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import { grey } from '@material-ui/core/colors';
+import { grey, red } from '@material-ui/core/colors';
 
 const styles = theme => ({
     paper: {
         ...theme.mixins.gutters(),
         paddingTop: theme.spacing.unit * 2,
         paddingBottom: theme.spacing.unit * 2,
+        flex: '1 0 calc(33% - 10px)',
+        background: '#fafafa',
      },
     card: {
       textAlign: 'left',
@@ -44,6 +46,11 @@ const styles = theme => ({
         paddingTop: 15,
         fontSize: 10,
     },
+    booklist: {
+        display: 'flex',
+        flexWrap: 'wrap',
+        marginLeft: -10,
+    }
   });
 
 class BooksList extends Component {
@@ -54,8 +61,8 @@ class BooksList extends Component {
             return <span key={index2}>&nbsp; {author}</span>
         })
 
-        return  <Paper className={classes.paper} elevation={1}>
-                <Card key={index} className={classes.card}>
+        return  <Paper key={index} className={classes.paper} elevation={0}>
+                <Card className={classes.card}>
 
                     <CardMedia  className={classes.media}
                                 image={each_book.volumeInfo.imageLinks.smallThumbnail}
@@ -89,7 +96,7 @@ class BooksList extends Component {
         });
 
         return (
-            <List dense='true'>
+            <List dense="true" className={classes.booklist}>
                 {books_collection}
             </List>
         );

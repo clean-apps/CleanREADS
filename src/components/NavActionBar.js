@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
+import * as Colors from '@material-ui/core/colors';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -13,16 +14,15 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListIcon from '@material-ui/icons/List';
-import CategoryIcon from '@material-ui/icons/Category';
 import Icon from '@material-ui/core/Icon';
 
-const styles = {
+const styles = theme => ({
   root: {
     flexGrow: 1,
-    background: '#558B2F',
   },
   grow: {
     flexGrow: 1,
+    textAlign: 'left',
   },
   menuButton: {
     marginLeft: -12,
@@ -36,8 +36,11 @@ const styles = {
   },
   icon: {
     fontSize: 16,
+  },
+  appBar: {
+    background: '#673ab7',
   }
-};
+});
 
 class NavActionBar extends Component {
 
@@ -92,7 +95,7 @@ class NavActionBar extends Component {
             </div>
           </Drawer>
 
-          <AppBar position="static" color="secondary">
+          <AppBar position="static" className={classes.appBar}>
             <Toolbar>
 
               <IconButton className={classes.menuButton} color="inherit" aria-label="Menu" onClick={this.toggleDrawer('left', true)}>

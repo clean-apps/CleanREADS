@@ -15,8 +15,9 @@ class BooksTable extends Component {
         }
 
         return  <div className="tile" key={index}>
-                    <img className="book_thumbnail" src={each_book.volumeInfo.imageLinks.smallThumbnail}/><br/>
-                    <b className="fav_titles">{trimmedTitle}</b>
+                    <img className="book_thumbnail" 
+                         src={each_book.volumeInfo.imageLinks.smallThumbnail}
+                         alt={trimmedTitle}/>
                 </div>
     }
 
