@@ -15,7 +15,7 @@ const styles = {
         height: 80,
     },
     icon_label: {
-        fontWeight: 100,
+        fontWeight: 'bold',
         marginTop: 0,
         color: 'darkgrey',
     },

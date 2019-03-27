@@ -44,12 +44,12 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=Jx1ojwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=Jx1ojwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=Jx1ojwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=Jx1ojwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=Jx1ojwEACAAJ&dq=harry+potter&hl=&cd=1&source=gbs_api",
-       "infoLink": "http://books.google.co.in/books?id=Jx1ojwEACAAJ&dq=harry+potter&hl=&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=Jx1ojwEACAAJ&dq=harry+potter&hl=&cd=1&source=gbs_api",
+       "infoLink": "https://books.google.co.in/books?id=Jx1ojwEACAAJ&dq=harry+potter&hl=&source=gbs_api",
        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_and_the_Cursed_Child_Parts.html?hl=&id=Jx1ojwEACAAJ"
       },
       "saleInfo": {
@@ -69,7 +69,7 @@
        "pdf": {
         "isAvailable": false
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=Jx1ojwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=Jx1ojwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "NONE",
        "quoteSharingAllowed": false
       },
@@ -115,12 +115,12 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=twlUtwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=twlUtwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=twlUtwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=twlUtwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=twlUtwEACAAJ&dq=harry+potter&hl=&cd=2&source=gbs_api",
-       "infoLink": "http://books.google.co.in/books?id=twlUtwEACAAJ&dq=harry+potter&hl=&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=twlUtwEACAAJ&dq=harry+potter&hl=&cd=2&source=gbs_api",
+       "infoLink": "https://books.google.co.in/books?id=twlUtwEACAAJ&dq=harry+potter&hl=&source=gbs_api",
        "canonicalVolumeLink": "https://books.google.com/books/about/Fantastic_Beasts_and_Where_to_Find_Them.html?hl=&id=twlUtwEACAAJ"
       },
       "saleInfo": {
@@ -140,7 +140,7 @@
        "pdf": {
         "isAvailable": false
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=twlUtwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=twlUtwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "NONE",
        "quoteSharingAllowed": false
       },
@@ -190,12 +190,12 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=ilc0DwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=ilc0DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=ilc0DwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=ilc0DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=ilc0DwAAQBAJ&dq=harry+potter&hl=&cd=3&source=gbs_api",
-       "infoLink": "http://books.google.co.in/books?id=ilc0DwAAQBAJ&dq=harry+potter&hl=&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=ilc0DwAAQBAJ&dq=harry+potter&hl=&cd=3&source=gbs_api",
+       "infoLink": "https://books.google.co.in/books?id=ilc0DwAAQBAJ&dq=harry+potter&hl=&source=gbs_api",
        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_A_Journey_Through_A_History.html?hl=&id=ilc0DwAAQBAJ"
       },
       "saleInfo": {
@@ -215,7 +215,7 @@
        "pdf": {
         "isAvailable": true
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=ilc0DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=ilc0DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "NONE",
        "quoteSharingAllowed": false
       },
@@ -265,12 +265,12 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=f280CwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=f280CwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=f280CwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=f280CwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=f280CwAAQBAJ&dq=harry+potter&hl=&cd=4&source=gbs_api",
-       "infoLink": "http://books.google.co.in/books?id=f280CwAAQBAJ&dq=harry+potter&hl=&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=f280CwAAQBAJ&dq=harry+potter&hl=&cd=4&source=gbs_api",
+       "infoLink": "https://books.google.co.in/books?id=f280CwAAQBAJ&dq=harry+potter&hl=&source=gbs_api",
        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_The_Complete_Collection_1_7.html?hl=&id=f280CwAAQBAJ"
       },
       "saleInfo": {
@@ -290,7 +290,7 @@
        "pdf": {
         "isAvailable": true
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=f280CwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=f280CwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "NONE",
        "quoteSharingAllowed": false
       },
@@ -340,12 +340,12 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=Aaug_RnI-xQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=Aaug_RnI-xQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=Aaug_RnI-xQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=Aaug_RnI-xQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=Aaug_RnI-xQC&printsec=frontcover&dq=harry+potter&hl=&cd=5&source=gbs_api",
-       "infoLink": "http://books.google.co.in/books?id=Aaug_RnI-xQC&dq=harry+potter&hl=&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=Aaug_RnI-xQC&printsec=frontcover&dq=harry+potter&hl=&cd=5&source=gbs_api",
+       "infoLink": "https://books.google.co.in/books?id=Aaug_RnI-xQC&dq=harry+potter&hl=&source=gbs_api",
        "canonicalVolumeLink": "https://books.google.com/books/about/The_Irresistible_Rise_of_Harry_Potter.html?hl=&id=Aaug_RnI-xQC"
       },
       "saleInfo": {
@@ -365,7 +365,7 @@
        "pdf": {
         "isAvailable": false
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=Aaug_RnI-xQC&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=Aaug_RnI-xQC&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "SAMPLE",
        "quoteSharingAllowed": false
       },
@@ -416,11 +416,11 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=szF_pLGmJTQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=szF_pLGmJTQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=szF_pLGmJTQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=szF_pLGmJTQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=szF_pLGmJTQC&printsec=frontcover&dq=harry+potter&hl=&cd=6&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=szF_pLGmJTQC&printsec=frontcover&dq=harry+potter&hl=&cd=6&source=gbs_api",
        "infoLink": "https://play.google.com/store/books/details?id=szF_pLGmJTQC&source=gbs_api",
        "canonicalVolumeLink": "https://market.android.com/details?id=book-szF_pLGmJTQC"
       },
@@ -462,9 +462,9 @@
        },
        "pdf": {
         "isAvailable": true,
-        "acsTokenLink": "http://books.google.co.in/books/download/Baptizing_Harry_Potter-sample-pdf.acsm?id=szF_pLGmJTQC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        "acsTokenLink": "https://books.google.co.in/books/download/Baptizing_Harry_Potter-sample-pdf.acsm?id=szF_pLGmJTQC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=szF_pLGmJTQC&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=szF_pLGmJTQC&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "SAMPLE",
        "quoteSharingAllowed": false
       },
@@ -515,11 +515,11 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=1WgGDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=1WgGDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=1WgGDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=1WgGDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=1WgGDAAAQBAJ&printsec=frontcover&dq=harry+potter&hl=&cd=7&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=1WgGDAAAQBAJ&printsec=frontcover&dq=harry+potter&hl=&cd=7&source=gbs_api",
        "infoLink": "https://play.google.com/store/books/details?id=1WgGDAAAQBAJ&source=gbs_api",
        "canonicalVolumeLink": "https://market.android.com/details?id=book-1WgGDAAAQBAJ"
       },
@@ -561,9 +561,9 @@
        },
        "pdf": {
         "isAvailable": true,
-        "acsTokenLink": "http://books.google.co.in/books/download/Heroism_in_the_Harry_Potter_Series-sample-pdf.acsm?id=1WgGDAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        "acsTokenLink": "https://books.google.co.in/books/download/Heroism_in_the_Harry_Potter_Series-sample-pdf.acsm?id=1WgGDAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=1WgGDAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=1WgGDAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "SAMPLE",
        "quoteSharingAllowed": false
       },
@@ -603,12 +603,12 @@
        "allowAnonLogging": false,
        "contentVersion": "preview-1.0.0",
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=5MQFrgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=5MQFrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=5MQFrgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=5MQFrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=5MQFrgEACAAJ&dq=harry+potter&hl=&cd=8&source=gbs_api",
-       "infoLink": "http://books.google.co.in/books?id=5MQFrgEACAAJ&dq=harry+potter&hl=&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=5MQFrgEACAAJ&dq=harry+potter&hl=&cd=8&source=gbs_api",
+       "infoLink": "https://books.google.co.in/books?id=5MQFrgEACAAJ&dq=harry+potter&hl=&source=gbs_api",
        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_and_the_Sorcerer_s_Stone.html?hl=&id=5MQFrgEACAAJ"
       },
       "saleInfo": {
@@ -628,7 +628,7 @@
        "pdf": {
         "isAvailable": false
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=5MQFrgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=5MQFrgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "NONE",
        "quoteSharingAllowed": false
       },
@@ -678,12 +678,12 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=wrOQLV6xB-wC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=wrOQLV6xB-wC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=wrOQLV6xB-wC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=wrOQLV6xB-wC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=wrOQLV6xB-wC&dq=harry+potter&hl=&cd=9&source=gbs_api",
-       "infoLink": "http://books.google.co.in/books?id=wrOQLV6xB-wC&dq=harry+potter&hl=&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=wrOQLV6xB-wC&dq=harry+potter&hl=&cd=9&source=gbs_api",
+       "infoLink": "https://books.google.co.in/books?id=wrOQLV6xB-wC&dq=harry+potter&hl=&source=gbs_api",
        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_and_the_Sorcerer_s_Stone.html?hl=&id=wrOQLV6xB-wC"
       },
       "saleInfo": {
@@ -703,7 +703,7 @@
        "pdf": {
         "isAvailable": true
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=wrOQLV6xB-wC&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=wrOQLV6xB-wC&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "NONE",
        "quoteSharingAllowed": false
       },
@@ -754,12 +754,12 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=iO5pApw2JycC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=iO5pApw2JycC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=iO5pApw2JycC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=iO5pApw2JycC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=iO5pApw2JycC&printsec=frontcover&dq=harry+potter&hl=&cd=10&source=gbs_api",
-       "infoLink": "http://books.google.co.in/books?id=iO5pApw2JycC&dq=harry+potter&hl=&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=iO5pApw2JycC&printsec=frontcover&dq=harry+potter&hl=&cd=10&source=gbs_api",
+       "infoLink": "https://books.google.co.in/books?id=iO5pApw2JycC&dq=harry+potter&hl=&source=gbs_api",
        "canonicalVolumeLink": "https://books.google.com/books/about/The_Ivory_Tower_and_Harry_Potter.html?hl=&id=iO5pApw2JycC"
       },
       "saleInfo": {
@@ -775,12 +775,12 @@
        "textToSpeechPermission": "ALLOWED",
        "epub": {
         "isAvailable": true,
-        "acsTokenLink": "http://books.google.co.in/books/download/The_Ivory_Tower_and_Harry_Potter-sample-epub.acsm?id=iO5pApw2JycC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        "acsTokenLink": "https://books.google.co.in/books/download/The_Ivory_Tower_and_Harry_Potter-sample-epub.acsm?id=iO5pApw2JycC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
        },
        "pdf": {
         "isAvailable": false
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=iO5pApw2JycC&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=iO5pApw2JycC&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "SAMPLE",
        "quoteSharingAllowed": false
       },

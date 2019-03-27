@@ -45,11 +45,11 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=dWYyCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=dWYyCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=dWYyCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=dWYyCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=dWYyCwAAQBAJ&printsec=frontcover&dq=harrari&hl=&cd=1&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=dWYyCwAAQBAJ&printsec=frontcover&dq=harrari&hl=&cd=1&source=gbs_api",
        "infoLink": "https://play.google.com/store/books/details?id=dWYyCwAAQBAJ&source=gbs_api",
        "canonicalVolumeLink": "https://market.android.com/details?id=book-dWYyCwAAQBAJ"
       },
@@ -88,12 +88,12 @@
        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
        "epub": {
         "isAvailable": true,
-        "acsTokenLink": "http://books.google.co.in/books/download/Homo_Deus-sample-epub.acsm?id=dWYyCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        "acsTokenLink": "https://books.google.co.in/books/download/Homo_Deus-sample-epub.acsm?id=dWYyCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
        },
        "pdf": {
         "isAvailable": false
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=dWYyCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=dWYyCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "SAMPLE",
        "quoteSharingAllowed": false
       },
@@ -144,11 +144,11 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=1EiJAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=1EiJAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=1EiJAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=1EiJAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=1EiJAwAAQBAJ&printsec=frontcover&dq=harrari&hl=&cd=2&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=1EiJAwAAQBAJ&printsec=frontcover&dq=harrari&hl=&cd=2&source=gbs_api",
        "infoLink": "https://play.google.com/store/books/details?id=1EiJAwAAQBAJ&source=gbs_api",
        "canonicalVolumeLink": "https://market.android.com/details?id=book-1EiJAwAAQBAJ"
       },
@@ -187,12 +187,12 @@
        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
        "epub": {
         "isAvailable": true,
-        "acsTokenLink": "http://books.google.co.in/books/download/Sapiens-sample-epub.acsm?id=1EiJAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        "acsTokenLink": "https://books.google.co.in/books/download/Sapiens-sample-epub.acsm?id=1EiJAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
        },
        "pdf": {
         "isAvailable": false
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=1EiJAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=1EiJAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "SAMPLE",
        "quoteSharingAllowed": false
       },
@@ -242,11 +242,11 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=ar44DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=ar44DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=ar44DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=ar44DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=ar44DwAAQBAJ&printsec=frontcover&dq=harrari&hl=&cd=3&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=ar44DwAAQBAJ&printsec=frontcover&dq=harrari&hl=&cd=3&source=gbs_api",
        "infoLink": "https://play.google.com/store/books/details?id=ar44DwAAQBAJ&source=gbs_api",
        "canonicalVolumeLink": "https://market.android.com/details?id=book-ar44DwAAQBAJ"
       },
@@ -285,12 +285,12 @@
        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
        "epub": {
         "isAvailable": true,
-        "acsTokenLink": "http://books.google.co.in/books/download/21_Lessons_for_the_21st_Century-sample-epub.acsm?id=ar44DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        "acsTokenLink": "https://books.google.co.in/books/download/21_Lessons_for_the_21st_Century-sample-epub.acsm?id=ar44DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
        },
        "pdf": {
         "isAvailable": false
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=ar44DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=ar44DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "SAMPLE",
        "quoteSharingAllowed": false
       },
@@ -338,11 +338,11 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=9KlV-9iqCfkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=9KlV-9iqCfkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=9KlV-9iqCfkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=9KlV-9iqCfkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=9KlV-9iqCfkC&pg=PT114&dq=harrari&hl=&cd=4&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=9KlV-9iqCfkC&pg=PT114&dq=harrari&hl=&cd=4&source=gbs_api",
        "infoLink": "https://play.google.com/store/books/details?id=9KlV-9iqCfkC&source=gbs_api",
        "canonicalVolumeLink": "https://market.android.com/details?id=book-9KlV-9iqCfkC"
       },
@@ -381,12 +381,12 @@
        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
        "epub": {
         "isAvailable": true,
-        "acsTokenLink": "http://books.google.co.in/books/download/Star_Trek_The_Children_of_Kings-sample-epub.acsm?id=9KlV-9iqCfkC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        "acsTokenLink": "https://books.google.co.in/books/download/Star_Trek_The_Children_of_Kings-sample-epub.acsm?id=9KlV-9iqCfkC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
        },
        "pdf": {
         "isAvailable": false
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=9KlV-9iqCfkC&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=9KlV-9iqCfkC&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "SAMPLE",
        "quoteSharingAllowed": false
       },
@@ -435,11 +435,11 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=E-dNDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=E-dNDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=E-dNDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=E-dNDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=E-dNDQAAQBAJ&pg=PA35&dq=harrari&hl=&cd=5&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=E-dNDQAAQBAJ&pg=PA35&dq=harrari&hl=&cd=5&source=gbs_api",
        "infoLink": "https://play.google.com/store/books/details?id=E-dNDQAAQBAJ&source=gbs_api",
        "canonicalVolumeLink": "https://market.android.com/details?id=book-E-dNDQAAQBAJ"
       },
@@ -478,13 +478,13 @@
        "textToSpeechPermission": "ALLOWED",
        "epub": {
         "isAvailable": true,
-        "acsTokenLink": "http://books.google.co.in/books/download/Between_the_Rule_of_Law_and_States_of_Em-sample-epub.acsm?id=E-dNDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        "acsTokenLink": "https://books.google.co.in/books/download/Between_the_Rule_of_Law_and_States_of_Em-sample-epub.acsm?id=E-dNDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
        },
        "pdf": {
         "isAvailable": true,
-        "acsTokenLink": "http://books.google.co.in/books/download/Between_the_Rule_of_Law_and_States_of_Em-sample-pdf.acsm?id=E-dNDQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        "acsTokenLink": "https://books.google.co.in/books/download/Between_the_Rule_of_Law_and_States_of_Em-sample-pdf.acsm?id=E-dNDQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=E-dNDQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=E-dNDQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "SAMPLE",
        "quoteSharingAllowed": false
       },
@@ -533,11 +533,11 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=jF2qCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=jF2qCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=jF2qCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=jF2qCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=jF2qCQAAQBAJ&pg=PT40&dq=harrari&hl=&cd=6&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=jF2qCQAAQBAJ&pg=PT40&dq=harrari&hl=&cd=6&source=gbs_api",
        "infoLink": "https://play.google.com/store/books/details?id=jF2qCQAAQBAJ&source=gbs_api",
        "canonicalVolumeLink": "https://market.android.com/details?id=book-jF2qCQAAQBAJ"
       },
@@ -576,13 +576,13 @@
        "textToSpeechPermission": "ALLOWED",
        "epub": {
         "isAvailable": true,
-        "acsTokenLink": "http://books.google.co.in/books/download/Clee_s_Odyssey-sample-epub.acsm?id=jF2qCQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        "acsTokenLink": "https://books.google.co.in/books/download/Clee_s_Odyssey-sample-epub.acsm?id=jF2qCQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
        },
        "pdf": {
         "isAvailable": true,
-        "acsTokenLink": "http://books.google.co.in/books/download/Clee_s_Odyssey-sample-pdf.acsm?id=jF2qCQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        "acsTokenLink": "https://books.google.co.in/books/download/Clee_s_Odyssey-sample-pdf.acsm?id=jF2qCQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=jF2qCQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=jF2qCQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "SAMPLE",
        "quoteSharingAllowed": false
       },
@@ -630,12 +630,12 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=_iLhswEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=_iLhswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=_iLhswEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=_iLhswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=_iLhswEACAAJ&dq=harrari&hl=&cd=7&source=gbs_api",
-       "infoLink": "http://books.google.co.in/books?id=_iLhswEACAAJ&dq=harrari&hl=&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=_iLhswEACAAJ&dq=harrari&hl=&cd=7&source=gbs_api",
+       "infoLink": "https://books.google.co.in/books?id=_iLhswEACAAJ&dq=harrari&hl=&source=gbs_api",
        "canonicalVolumeLink": "https://books.google.com/books/about/The_Rise_of_Humans.html?hl=&id=_iLhswEACAAJ"
       },
       "saleInfo": {
@@ -655,7 +655,7 @@
        "pdf": {
         "isAvailable": false
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=_iLhswEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=_iLhswEACAAJ&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "NONE",
        "quoteSharingAllowed": false
       },
@@ -704,11 +704,11 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=hbAzDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=hbAzDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=hbAzDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=hbAzDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=hbAzDwAAQBAJ&printsec=frontcover&dq=harrari&hl=&cd=8&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=hbAzDwAAQBAJ&printsec=frontcover&dq=harrari&hl=&cd=8&source=gbs_api",
        "infoLink": "https://play.google.com/store/books/details?id=hbAzDwAAQBAJ&source=gbs_api",
        "canonicalVolumeLink": "https://market.android.com/details?id=book-hbAzDwAAQBAJ"
       },
@@ -747,12 +747,12 @@
        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
        "epub": {
         "isAvailable": true,
-        "acsTokenLink": "http://books.google.co.in/books/download/Money-sample-epub.acsm?id=hbAzDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        "acsTokenLink": "https://books.google.co.in/books/download/Money-sample-epub.acsm?id=hbAzDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
        },
        "pdf": {
         "isAvailable": false
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=hbAzDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=hbAzDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "SAMPLE",
        "quoteSharingAllowed": false
       },
@@ -803,11 +803,11 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=OGAyDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=OGAyDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=OGAyDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=OGAyDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=OGAyDwAAQBAJ&pg=PT92&dq=harrari&hl=&cd=9&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=OGAyDwAAQBAJ&pg=PT92&dq=harrari&hl=&cd=9&source=gbs_api",
        "infoLink": "https://play.google.com/store/books/details?id=OGAyDwAAQBAJ&source=gbs_api",
        "canonicalVolumeLink": "https://market.android.com/details?id=book-OGAyDwAAQBAJ"
       },
@@ -846,13 +846,13 @@
        "textToSpeechPermission": "ALLOWED",
        "epub": {
         "isAvailable": true,
-        "acsTokenLink": "http://books.google.co.in/books/download/Love_Thy_Body-sample-epub.acsm?id=OGAyDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        "acsTokenLink": "https://books.google.co.in/books/download/Love_Thy_Body-sample-epub.acsm?id=OGAyDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
        },
        "pdf": {
         "isAvailable": true,
-        "acsTokenLink": "http://books.google.co.in/books/download/Love_Thy_Body-sample-pdf.acsm?id=OGAyDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        "acsTokenLink": "https://books.google.co.in/books/download/Love_Thy_Body-sample-pdf.acsm?id=OGAyDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=OGAyDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=OGAyDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "SAMPLE",
        "quoteSharingAllowed": false
       },
@@ -902,11 +902,11 @@
         "containsImageBubbles": false
        },
        "imageLinks": {
-        "smallThumbnail": "http://books.google.com/books/content?id=sY02DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-        "thumbnail": "http://books.google.com/books/content?id=sY02DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "smallThumbnail": "https://books.google.com/books/content?id=sY02DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "https://books.google.com/books/content?id=sY02DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
        },
        "language": "en",
-       "previewLink": "http://books.google.co.in/books?id=sY02DwAAQBAJ&printsec=frontcover&dq=harrari&hl=&cd=10&source=gbs_api",
+       "previewLink": "https://books.google.co.in/books?id=sY02DwAAQBAJ&printsec=frontcover&dq=harrari&hl=&cd=10&source=gbs_api",
        "infoLink": "https://play.google.com/store/books/details?id=sY02DwAAQBAJ&source=gbs_api",
        "canonicalVolumeLink": "https://market.android.com/details?id=book-sY02DwAAQBAJ"
       },
@@ -945,12 +945,12 @@
        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
        "epub": {
         "isAvailable": true,
-        "acsTokenLink": "http://books.google.co.in/books/download/Unlocking_Greatness-sample-epub.acsm?id=sY02DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        "acsTokenLink": "https://books.google.co.in/books/download/Unlocking_Greatness-sample-epub.acsm?id=sY02DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
        },
        "pdf": {
         "isAvailable": false
        },
-       "webReaderLink": "http://play.google.com/books/reader?id=sY02DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "webReaderLink": "https://play.google.com/books/reader?id=sY02DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
        "accessViewStatus": "SAMPLE",
        "quoteSharingAllowed": false
       },

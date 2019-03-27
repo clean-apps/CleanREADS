@@ -6,7 +6,8 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import { grey, red } from '@material-ui/core/colors';
+import { grey } from '@material-ui/core/colors';
+import LazyLoad from 'react-lazy-load';
 
 const styles = theme => ({
     paper: {
@@ -64,9 +65,17 @@ class BooksList extends Component {
         return  <Paper key={index} className={classes.paper} elevation={0}>
                 <Card className={classes.card}>
 
-                    <CardMedia  className={classes.media}
-                                image={each_book.volumeInfo.imageLinks.smallThumbnail}
-                                title={each_book.volumeInfo.title}  />
+                    <LazyLoad 
+                        width={100}
+                        height={150}
+                        debounce={false}
+                        throttle={250} >
+
+                        <CardMedia  className={classes.media}
+                                    image={each_book.volumeInfo.imageLinks.smallThumbnail}
+                                    title={each_book.volumeInfo.title}  />
+
+                    </LazyLoad>
 
                     <CardContent className={classes.content}>
                         

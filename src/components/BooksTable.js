@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import LazyLoad from 'react-lazy-load';
 import './BooksTable.css';
 
 class BooksTable extends Component {
@@ -9,15 +10,23 @@ class BooksTable extends Component {
         var title = each_book.volumeInfo.title;
         var trimmedTitle = title;
         if( title.length >= maxLength ){
-            var trimmedTitle = title.substr(0, maxLength);
+            trimmedTitle = title.substr(0, maxLength);
             trimmedTitle = title.substr(0, Math.min(trimmedTitle.length, trimmedTitle.lastIndexOf(" ")))
             trimmedTitle += '...'
         }
 
         return  <div className="tile" key={index}>
-                    <img className="book_thumbnail" 
-                         src={each_book.volumeInfo.imageLinks.smallThumbnail}
-                         alt={trimmedTitle}/>
+                    <LazyLoad 
+                        width={100}
+                        height={150}
+                        debounce={false}
+                        throttle={250} >
+
+                        <img className="book_thumbnail" 
+                             src={each_book.volumeInfo.imageLinks.smallThumbnail}
+                             alt={trimmedTitle} />
+
+                    </LazyLoad>
                 </div>
     }
 

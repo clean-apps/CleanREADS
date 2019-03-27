@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import * as Colors from '@material-ui/core/colors';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -38,7 +37,7 @@ const styles = theme => ({
     fontSize: 16,
   },
   appBar: {
-    background: '#673ab7',
+    background: 'darkseagreen',
   }
 });
 
