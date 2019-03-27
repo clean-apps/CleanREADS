@@ -62,7 +62,7 @@ class BooksList extends Component {
             return <span key={index2}>&nbsp; {author}</span>
         })
 
-        return  <Paper key={index} className={classes.paper} elevation={0}>
+        return  <Paper key={index} className={classes.paper} elevation={0} component='li'>
                 <Card className={classes.card}>
 
                     <LazyLoad 
@@ -105,7 +105,7 @@ class BooksList extends Component {
         });
 
         return (
-            <List dense="true" className={classes.booklist}>
+            <List dense={true} className={classes.booklist}>
                 {books_collection}
             </List>
         );

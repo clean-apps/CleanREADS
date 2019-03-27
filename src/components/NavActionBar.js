@@ -63,7 +63,7 @@ class NavActionBar extends Component {
         <div className={classes.list}>
           <List>
             {Object.keys(this.props.lists).map((text, index) => (
-              <ListItem button key={text} onClick={this.props.lists[text]}>
+              <ListItem button key={text} onClick={this.props.lists[text]} aria-label={text}>
                 <ListItemIcon><ListIcon/></ListItemIcon>
                 <ListItemText primary={text} />
               </ListItem>
@@ -72,7 +72,7 @@ class NavActionBar extends Component {
           <Divider />
           <List>
             {Object.keys(this.props.categories).map((text, index) => (
-              <ListItem button key={text} onClick={this.props.categories[text].onClick}>
+              <ListItem button key={text} onClick={this.props.categories[text].onClick} aria-label={text}>
                 <ListItemIcon><Icon className={classes.icon}>{this.props.categories[text].icon}</Icon></ListItemIcon>
                 <ListItemText primary={text} />
               </ListItem>
@@ -105,7 +105,7 @@ class NavActionBar extends Component {
                 {this.props.title}
               </Typography>
 
-              <IconButton color="inherit">
+              <IconButton color="inherit" aria-label="Search"> 
                   <SearchIcon />
               </IconButton>
 
