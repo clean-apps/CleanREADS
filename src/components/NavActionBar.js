@@ -37,7 +37,7 @@ const styles = theme => ({
     fontSize: 16,
   },
   appBar: {
-    background: 'darkseagreen',
+    background: '#009688',
   }
 });
 
