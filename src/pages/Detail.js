@@ -8,8 +8,10 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 import LazyLoad from "react-lazy-load";
-import Fab from "@material-ui/core/Fab";
+import Button from "@material-ui/core/Button";
 import List from "@material-ui/icons/List";
+import Book from "@material-ui/icons/Book";
+import Rating from "material-ui-rating";
 import Favorite from "@material-ui/icons/Favorite";
 import FavoriteBorder from "@material-ui/icons/FavoriteBorder";
 import { get_book_by_id_action } from "../actions/books_list_action";
@@ -20,8 +22,19 @@ const styles = theme => ({
   card: {
     textAlign: "left",
     display: "flex",
-    flexDirection: "row",
+    flexDirection: "column",
     justifyContent: "flex-start"
+  },
+  content_row: {
+    display: "flex",
+    flexDirection: "row",
+    marginBottom: theme.spacing.unit,
+    marginLeft: theme.spacing.unit
+  },
+  content_column: {
+    display: "flex",
+    flexDirection: "column",
+    marginLeft: theme.spacing.unit
   },
   content: {
     display: "flex",
@@ -32,16 +45,18 @@ const styles = theme => ({
     maxWidth: 100,
     minHeight: 150,
     maxHeight: 150,
-    margin: 7
+    margin: 7,
+    "-moz-box-shadow": "0 0 5px #888",
+    "-webkit-box-shadow": "0 0 5px#888",
+    "box-shadow": "0 0 5px #888"
   },
   title: {
-    fontWeight: "Bold",
-    color: "black",
-    fontSize: 14
+    marginLeft: theme.spacing.unit
   },
   author: {
     color: "grey",
-    fontSize: 10
+    fontSize: 12,
+    marginLeft: theme.spacing.unit
   },
   desc: {
     paddingTop: 15,
@@ -49,6 +64,12 @@ const styles = theme => ({
   },
   fab_fav: {
     margin: theme.spacing.unit
+  },
+  lists: {
+    marginLeft: theme.spacing.unit,
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "flex-start"
   },
   extendedIcon: {
     marginRight: theme.spacing.unit
@@ -84,44 +105,76 @@ class Detail extends Component {
       return (
         <div className="App">
           <CssBaseline />
-          <Nav title={selected_book.volumeInfo.title} />
+          <Nav title={"Book Details"} />
           <Card className={classes.card}>
-            <LazyLoad width={100} height={150} debounce={false} throttle={250}>
-              <CardMedia
-                className={classes.media}
-                image={selected_book.volumeInfo.imageLinks.smallThumbnail}
-                title={selected_book.volumeInfo.title}
-              />
-            </LazyLoad>
+            <div className={classes.content_row}>
+              <LazyLoad
+                width={100}
+                height={150}
+                debounce={false}
+                throttle={250}
+              >
+                <CardMedia
+                  className={classes.media}
+                  image={selected_book.volumeInfo.imageLinks.smallThumbnail}
+                  title={selected_book.volumeInfo.title}
+                />
+              </LazyLoad>
+              <div className={classes.content_column}>
+                <Typography
+                  className={classes.title}
+                  variant="h6"
+                  align="left"
+                  gutterBottom
+                >
+                  {selected_book.volumeInfo.title}
+                </Typography>
+                <Typography
+                  className={classes.author}
+                  variant="subtitle1"
+                  align="left"
+                  gutterBottom
+                >
+                  {authors}
+                </Typography>
+                <Button
+                  aria-label="MyLIST1"
+                  size="small"
+                  className={classes.lists}
+                >
+                  <List className={classes.extendedIcon} />
+                  MyLIST1
+                </Button>
+                <Rating
+                  value={selected_book.volumeInfo.averageRating}
+                  max={5}
+                  readOnly={true}
+                />
+              </div>
+            </div>
 
             <CardContent className={classes.content}>
-              <Typography variant="h6" align="left" gutterBottom>
-                {selected_book.volumeInfo.title}
-              </Typography>
-              <Typography variant="subtitle1" align="left" gutterBottom>
-                {authors}
-              </Typography>
-              <div className={classes.card}>
-                <Fab
-                  color="secondary"
-                  variant="extended"
-                  aria-label="Add"
-                  size="medium"
+              <div className={classes.content_row}>
+                <Button
+                  color="primary"
+                  variant="outlined"
+                  aria-label="Add Favorite"
+                  size="small"
                   className={classes.fab_fav}
                 >
                   <FavoriteBorder className={classes.extendedIcon} />
                   Add Favorite
-                </Fab>
-                <Fab
+                </Button>
+                <Button
                   color="primary"
-                  variant="extended"
-                  aria-label="Add"
-                  size="medium"
+                  variant="contained"
+                  aria-label="Add To List"
+                  size="small"
                   className={classes.fab_fav}
                 >
-                  <List className={classes.extendedIcon} />
-                  Add to List
-                </Fab>
+                  <Book className={classes.extendedIcon} />
+                  Google Books
+                </Button>
               </div>
               <Typography variant="body1" align="left" gutterBottom>
                 {selected_book.volumeInfo.description}
