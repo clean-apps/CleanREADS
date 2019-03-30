@@ -82,7 +82,7 @@ class BooksList extends Component {
                 image={
                   each_book.volumeInfo.imageLinks
                     ? each_book.volumeInfo.imageLinks.smallThumbnail
-                    : ''
+                    : ""
                 }
                 title={each_book.volumeInfo.title}
               />
@@ -102,9 +102,7 @@ class BooksList extends Component {
               </Typography>
 
               <Typography className={classes.desc} variant="h5" component="h2">
-                {each_book.searchInfo
-                  ? each_book.searchInfo.textSnippet
-                  : ''}
+                {each_book.searchInfo ? each_book.searchInfo.textSnippet : ""}
               </Typography>
             </CardContent>
           </Card>

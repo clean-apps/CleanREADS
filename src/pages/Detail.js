@@ -99,15 +99,16 @@ class Detail extends Component {
       return <div className="App" />;
     } else {
       var authors = selected_book.volumeInfo.authors
-      ? selected_book.volumeInfo.authors.map((author, index2) => {
-        return <span key={index2}>&nbsp; {author}</span>;
-      }) : "";
+        ? selected_book.volumeInfo.authors.map((author, index2) => {
+            return <span key={index2}>&nbsp; {author}</span>;
+          })
+        : "";
 
       var categories = selected_book.volumeInfo.categories
-      ? selected_book.volumeInfo.categories.map((category, index2) => {
-          return <span key={index2}>&nbsp; {category}</span>;
-        })
-      : "";
+        ? selected_book.volumeInfo.categories.map((category, index2) => {
+            return <span key={index2}>&nbsp; {category}</span>;
+          })
+        : "";
 
       return (
         <div className="App">

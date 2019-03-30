@@ -14,7 +14,7 @@ import IconButton from "@material-ui/core/IconButton";
 import Rating from "material-ui-rating";
 import CardActions from "@material-ui/core/CardActions";
 import { NavLink } from "react-router-dom";
-import BookshelfDB from '../data/BookshelfDB';
+import BookshelfDB from "../data/BookshelfDB";
 const styles = theme => ({
   paper: {
     ...theme.mixins.gutters(),
@@ -27,11 +27,11 @@ const styles = theme => ({
     textAlign: "left",
     display: "flex",
     flexDirection: "row",
-    justifyContent: 'space-between',
+    justifyContent: "space-between"
   },
   content: {
     display: "flex",
-    flexDirection: "column",
+    flexDirection: "column"
   },
   media: {
     minWidth: 100,
@@ -68,17 +68,15 @@ const styles = theme => ({
     justifyContent: "flex-start"
   },
   cardActions: {
-    display: 'flex',
+    display: "flex",
     flexDirection: "column",
-    justifyContent: 'flex-start',
-  },
+    justifyContent: "flex-start"
+  }
 });
-
 
 const bookshelfDB = new BookshelfDB();
 
 class BooksListSearch extends Component {
-
   _getListItem(classes, each_book, index) {
     //console.log(each_book);
     var authors = each_book.volumeInfo.authors
@@ -87,19 +85,32 @@ class BooksListSearch extends Component {
         })
       : "";
 
-      var is_added_to_list = bookshelfDB.get_book_by_volid(each_book.id, () => {});
-      console.log( is_added_to_list );
-      var actions = is_added_to_list ? ( 
-                  () => { <CardActions className={classes.cardActions}>
-                            <IconButton aria-label="add to list" size="small" color="primary" className={classes.button}>
-                              <ListIcon />
-                            </IconButton>
-                          </CardActions> 
-                      }) : '';
+    var is_added_to_list = bookshelfDB.get_book_by_volid(
+      each_book.id,
+      () => {}
+    );
+    console.log(is_added_to_list);
+    var actions = is_added_to_list
+      ? () => {
+          <CardActions className={classes.cardActions}>
+            <IconButton
+              aria-label="add to list"
+              size="small"
+              color="primary"
+              className={classes.button}
+            >
+              <ListIcon />
+            </IconButton>
+          </CardActions>;
+        }
+      : "";
 
     return (
       <Paper key={index} className={classes.paper} elevation={0} component="li">
-        <NavLink className={classes.nohyperlink} to={"/searchdetail/" + each_book.id}>
+        <NavLink
+          className={classes.nohyperlink}
+          to={"/searchdetail/" + each_book.id}
+        >
           <Card className={classes.card}>
             <LazyLoad width={100} height={150} debounce={false} throttle={250}>
               <CardMedia
@@ -107,7 +118,7 @@ class BooksListSearch extends Component {
                 image={
                   each_book.volumeInfo.imageLinks
                     ? each_book.volumeInfo.imageLinks.smallThumbnail
-                    : ''
+                    : ""
                 }
                 title={each_book.volumeInfo.title}
               />
@@ -127,21 +138,18 @@ class BooksListSearch extends Component {
               </Typography>
 
               <Typography className={classes.desc} variant="h5" component="h2">
-                {each_book.searchInfo
-                  ? each_book.searchInfo.textSnippet
-                  : ''}
+                {each_book.searchInfo ? each_book.searchInfo.textSnippet : ""}
               </Typography>
-              
             </CardContent>
 
             <CardActions className={classes.cardActions}>
-                <IconButton aria-label="add to favorite" size="small">
-                  <FavoriteIcon />
-                </IconButton>
-                <IconButton aria-label="add to list" size="small" >
-                  <ListIcon />
-                </IconButton>
-              </CardActions>
+              <IconButton aria-label="add to favorite" size="small">
+                <FavoriteIcon />
+              </IconButton>
+              <IconButton aria-label="add to list" size="small">
+                <ListIcon />
+              </IconButton>
+            </CardActions>
           </Card>
         </NavLink>
       </Paper>

@@ -1,33 +1,32 @@
-
-.horizontal_scroll{
-    display: flex;
-    overflow-x: auto;
-    white-space: nowrap;
+.horizontal_scroll {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
-.tile{
-    text-align: center;
-    color: darkred;
-    padding: 20px;
-    padding-right: 0;
-    width: 200px;
-    font-weight: 100;
+.tile {
+  text-align: center;
+  color: darkred;
+  padding: 20px;
+  padding-right: 0;
+  width: 200px;
+  font-weight: 100;
 }
 
 .book_thumbnail {
-    height: 150px;
-    -moz-box-shadow: 0 0 5px #888;
-    -webkit-box-shadow: 0 0 5px#888;
-    box-shadow: 0 0 5px #888;
+  height: 150px;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
 }
 
-.fav_titles{
-    white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    white-space: pre-wrap;       /* css-3 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
-    white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
-    word-break: break-all;
-    white-space: normal;
+.fav_titles {
+  white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  white-space: pre-wrap; /* css-3 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+  white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+  word-break: break-all;
+  white-space: normal;
 }
