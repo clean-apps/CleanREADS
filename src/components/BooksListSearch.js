@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { withStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
 import ListIcon from "@material-ui/icons/List";
+import FavoriteIcon from "@material-ui/icons/Favorite";
 import Paper from "@material-ui/core/Paper";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
@@ -9,11 +10,11 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 import { grey } from "@material-ui/core/colors";
 import LazyLoad from "react-lazy-load";
-import Fab from "@material-ui/core/Fab";
+import IconButton from "@material-ui/core/IconButton";
+import Rating from "material-ui-rating";
 import CardActions from "@material-ui/core/CardActions";
 import { NavLink } from "react-router-dom";
 import BookshelfDB from '../data/BookshelfDB';
-
 const styles = theme => ({
   paper: {
     ...theme.mixins.gutters(),
@@ -26,11 +27,11 @@ const styles = theme => ({
     textAlign: "left",
     display: "flex",
     flexDirection: "row",
-    justifyContent: "flex-start"
+    justifyContent: 'space-between',
   },
   content: {
     display: "flex",
-    flexDirection: "column"
+    flexDirection: "column",
   },
   media: {
     minWidth: 100,
@@ -57,9 +58,6 @@ const styles = theme => ({
     flexWrap: "wrap",
     marginLeft: -10
   },
-  button: {
-    margin: theme.spacing.unit
-  },
   nohyperlink: {
     textDecoration: "none"
   },
@@ -69,14 +67,13 @@ const styles = theme => ({
     flexDirection: "row",
     justifyContent: "flex-start"
   },
-  button: {
-    margin: theme.spacing.unit,
-  },
   cardActions: {
     display: 'flex',
-    flexDirection: 'row-reverse',
-  }
+    flexDirection: "column",
+    justifyContent: 'flex-start',
+  },
 });
+
 
 const bookshelfDB = new BookshelfDB();
 
@@ -91,11 +88,12 @@ class BooksListSearch extends Component {
       : "";
 
       var is_added_to_list = bookshelfDB.get_book_by_volid(each_book.id, () => {});
+      console.log( is_added_to_list );
       var actions = is_added_to_list ? ( 
                   () => { <CardActions className={classes.cardActions}>
-                            <Fab aria-label="add to list" size="small" color="primary" className={classes.button}>
+                            <IconButton aria-label="add to list" size="small" color="primary" className={classes.button}>
                               <ListIcon />
-                            </Fab>
+                            </IconButton>
                           </CardActions> 
                       }) : '';
 
@@ -131,11 +129,19 @@ class BooksListSearch extends Component {
               <Typography className={classes.desc} variant="h5" component="h2">
                 {each_book.searchInfo
                   ? each_book.searchInfo.textSnippet
-                  : each_book.volumeInfo.description}
+                  : ''}
               </Typography>
-              {actions}
+              
             </CardContent>
-            
+
+            <CardActions className={classes.cardActions}>
+                <IconButton aria-label="add to favorite" size="small">
+                  <FavoriteIcon />
+                </IconButton>
+                <IconButton aria-label="add to list" size="small" >
+                  <ListIcon />
+                </IconButton>
+              </CardActions>
           </Card>
         </NavLink>
       </Paper>

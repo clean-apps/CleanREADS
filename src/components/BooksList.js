@@ -104,7 +104,7 @@ class BooksList extends Component {
               <Typography className={classes.desc} variant="h5" component="h2">
                 {each_book.searchInfo
                   ? each_book.searchInfo.textSnippet
-                  : each_book.volumeInfo.description}
+                  : ''}
               </Typography>
             </CardContent>
           </Card>

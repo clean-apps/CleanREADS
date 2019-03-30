@@ -98,9 +98,16 @@ class Detail extends Component {
     if (countProps === 0) {
       return <div className="App" />;
     } else {
-      var authors = selected_book.volumeInfo.authors.map((author, index2) => {
+      var authors = selected_book.volumeInfo.authors
+      ? selected_book.volumeInfo.authors.map((author, index2) => {
         return <span key={index2}>&nbsp; {author}</span>;
-      });
+      }) : "";
+
+      var categories = selected_book.volumeInfo.categories
+      ? selected_book.volumeInfo.categories.map((category, index2) => {
+          return <span key={index2}>&nbsp; {category}</span>;
+        })
+      : "";
 
       return (
         <div className="App">
@@ -137,6 +144,16 @@ class Detail extends Component {
                 >
                   {authors}
                 </Typography>
+
+                <Typography
+                  className={classes.author}
+                  variant="subtitle2"
+                  align="left"
+                  gutterBottom
+                >
+                  {categories}
+                </Typography>
+
                 <Button
                   aria-label="MyLIST1"
                   size="small"
