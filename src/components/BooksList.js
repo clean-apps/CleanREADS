@@ -65,9 +65,12 @@ const styles = theme => ({
 
 class BooksList extends Component {
   _getListItem(classes, each_book, index) {
-    var authors = each_book.volumeInfo.authors.map((author, index2) => {
-      return <span key={index2}>&nbsp; {author}</span>;
-    });
+    //console.log(each_book);
+    var authors = each_book.volumeInfo.authors
+      ? each_book.volumeInfo.authors.map((author, index2) => {
+          return <span key={index2}>&nbsp; {author}</span>;
+        })
+      : "";
 
     return (
       <Paper key={index} className={classes.paper} elevation={0} component="li">
@@ -76,7 +79,11 @@ class BooksList extends Component {
             <LazyLoad width={100} height={150} debounce={false} throttle={250}>
               <CardMedia
                 className={classes.media}
-                image={each_book.volumeInfo.imageLinks.smallThumbnail}
+                image={
+                  each_book.volumeInfo.imageLinks
+                    ? each_book.volumeInfo.imageLinks.smallThumbnail
+                    : ''
+                }
                 title={each_book.volumeInfo.title}
               />
             </LazyLoad>
@@ -95,7 +102,9 @@ class BooksList extends Component {
               </Typography>
 
               <Typography className={classes.desc} variant="h5" component="h2">
-                {each_book.searchInfo.textSnippet}
+                {each_book.searchInfo
+                  ? each_book.searchInfo.textSnippet
+                  : each_book.volumeInfo.description}
               </Typography>
             </CardContent>
           </Card>
