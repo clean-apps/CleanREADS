@@ -4,7 +4,9 @@ export default (
     fav_books: [],
     selected_book: {},
     searched_books: [],
-    search_text: ""
+    search_text: "",
+    list_items: [],
+    category_items: []
   },
   action
 ) => {
@@ -32,6 +34,18 @@ export default (
         ...state,
         searched_books: action.payload.books,
         search_text: action.payload.search_txt
+      };
+
+    case "GET_LISTS":
+      return {
+        ...state,
+        list_items: action.payload
+      };
+
+    case "GET_CATEGORIES":
+      return {
+        ...state,
+        category_items: action.payload
       };
 
     default:

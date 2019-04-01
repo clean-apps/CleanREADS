@@ -42,3 +42,21 @@ export const search_books = search_txt => dispatch => {
     });
   });
 };
+
+export const get_all_lists_action = () => dispatch => {
+  db.get_all_lists(lists => {
+    dispatch({
+      type: "GET_LISTS",
+      payload: lists
+    });
+  });
+};
+
+export const get_all_category_action = () => dispatch => {
+  db.get_all_categories(categories => {
+    dispatch({
+      type: "GET_CATEGORIES",
+      payload: categories
+    });
+  });
+};

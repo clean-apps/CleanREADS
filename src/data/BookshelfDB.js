@@ -20,6 +20,23 @@ class BookshelfDB {
     callback(books_data.items);
     return books_data.items;
   }
+
+  get_all_lists(callback) {
+    let default_lists = [
+      { text: "To Read", icon: "list" },
+      { text: "Currently Reading", icon: "list" },
+      { text: "Completed", icon: "list" }
+    ];
+
+    callback(default_lists);
+    return default_lists;
+  }
+
+  get_all_categories(callback) {
+    let category_items = require("./CategoryItems.json");
+    callback(category_items);
+    return category_items;
+  }
 }
 
 export default BookshelfDB;
