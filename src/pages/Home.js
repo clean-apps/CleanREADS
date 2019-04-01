@@ -11,7 +11,7 @@ import { simpleAction } from "../actions/simpleAction";
 import {
   get_all_books_action,
   get_fav_books_action
-} from "../actions/books_list_action";
+} from "../actions/books_list_actions";
 
 import "./Home.css";
 

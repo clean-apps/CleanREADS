@@ -14,7 +14,7 @@ import Book from "@material-ui/icons/Book";
 import Rating from "material-ui-rating";
 import Favorite from "@material-ui/icons/Favorite";
 import FavoriteBorder from "@material-ui/icons/FavoriteBorder";
-import { get_book_by_id_action } from "../actions/books_list_action";
+import { get_book_by_id_action } from "../actions/books_list_actions";
 
 import "./Home.css";
 
