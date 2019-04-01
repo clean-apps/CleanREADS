@@ -4,20 +4,37 @@ class BookshelfDB {
   db = new Dexie("BookshelfDB");
 
   constructor() {
+    this.db.version(1).stores({
+      lists: "++id, list_name"
+    });
+
     this.db.version(2).stores({
       lists: "++id, list_name",
       fav_books: "++id, category",
       all_books: "++id, category, list_name"
     });
 
-    let fav_books_data = require("./GoogleBooksHarrari.json");
-    fav_books_data.items.map(each_book => {
-      this.add_fav(each_book, () => {});
+    this.get_fav_books(books => {
+      if (!books) {
+        let fav_books_data = require("./GoogleBooksHarrari.json");
+        fav_books_data.items.map(each_book => {
+          this.add_fav(each_book, () => {});
+        });
+      }
     });
 
-    let all_books_data = require("./GoogleBooksPotter.json");
-    all_books_data.items.map(each_book => {
-      this.add_book(each_book, "MYLIST1", () => {});
+    this.get_all_books(books => {
+      if (!books) {
+        let all_books_data = require("./GoogleBooksPotter.json");
+        all_books_data.items.map(each_book => {
+          this.add_book(each_book, "MYLIST1", () => {});
+        });
+
+        let fav_books_data = require("./GoogleBooksHarrari.json");
+        fav_books_data.items.map(each_book => {
+          this.add_fav(each_book, () => {});
+        });
+      }
     });
   }
 

@@ -78,13 +78,6 @@ const bookshelfDB = new BookshelfDB();
 
 class BooksListSearch extends Component {
   _getListItem(classes, each_book, index) {
-    //console.log(each_book);
-    var authors = each_book.volumeInfo.authors
-      ? each_book.volumeInfo.authors.map((author, index2) => {
-          return <span key={index2}>&nbsp; {author}</span>;
-        })
-      : "";
-
     var is_added_to_list = bookshelfDB.get_book_by_volid(
       each_book.id,
       () => {}
@@ -109,18 +102,14 @@ class BooksListSearch extends Component {
       <Paper key={index} className={classes.paper} elevation={0} component="li">
         <NavLink
           className={classes.nohyperlink}
-          to={"/searchdetail/" + each_book.id}
+          to={"/searchdetail/" + each_book.vol_id}
         >
           <Card className={classes.card}>
             <LazyLoad width={100} height={150} debounce={false} throttle={250}>
               <CardMedia
                 className={classes.media}
-                image={
-                  each_book.volumeInfo.imageLinks
-                    ? each_book.volumeInfo.imageLinks.smallThumbnail
-                    : ""
-                }
-                title={each_book.volumeInfo.title}
+                image={each_book.volumeInfo.thumbnail}
+                title={each_book.title}
               />
             </LazyLoad>
 
@@ -130,15 +119,15 @@ class BooksListSearch extends Component {
                 color="textSecondary"
                 gutterBottom
               >
-                {each_book.volumeInfo.title}
+                {each_book.title}
               </Typography>
 
               <Typography className={classes.author} color="textSecondary">
-                By{authors}
+                By{each_book.authors}
               </Typography>
 
               <Typography className={classes.desc} variant="h5" component="h2">
-                {each_book.searchInfo ? each_book.searchInfo.textSnippet : ""}
+                {each_book.desc}
               </Typography>
             </CardContent>
 

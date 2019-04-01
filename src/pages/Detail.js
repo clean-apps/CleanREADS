@@ -98,10 +98,6 @@ class Detail extends Component {
     if (countProps === 0) {
       return <div className="App" />;
     } else {
-      var authors = selected_book.volumeInfo.authors.map((author, index2) => {
-        return <span key={index2}>&nbsp; {author}</span>;
-      });
-
       return (
         <div className="App">
           <CssBaseline />
@@ -116,8 +112,8 @@ class Detail extends Component {
               >
                 <CardMedia
                   className={classes.media}
-                  image={selected_book.volumeInfo.imageLinks.smallThumbnail}
-                  title={selected_book.volumeInfo.title}
+                  image={selected_book.thumbnail}
+                  title={selected_book.title}
                 />
               </LazyLoad>
               <div className={classes.content_column}>
@@ -127,7 +123,7 @@ class Detail extends Component {
                   align="left"
                   gutterBottom
                 >
-                  {selected_book.volumeInfo.title}
+                  {selected_book.title}
                 </Typography>
                 <Typography
                   className={classes.author}
@@ -135,7 +131,7 @@ class Detail extends Component {
                   align="left"
                   gutterBottom
                 >
-                  {authors}
+                  {selected_book.authors}
                 </Typography>
                 <Button
                   aria-label="MyLIST1"
@@ -145,11 +141,7 @@ class Detail extends Component {
                   <List className={classes.extendedIcon} />
                   MyLIST1
                 </Button>
-                <Rating
-                  value={selected_book.volumeInfo.averageRating}
-                  max={5}
-                  readOnly={true}
-                />
+                <Rating value={selected_book.rating} max={5} readOnly={true} />
               </div>
             </div>
 
@@ -177,7 +169,7 @@ class Detail extends Component {
                 </Button>
               </div>
               <Typography variant="body1" align="left" gutterBottom>
-                {selected_book.volumeInfo.description}
+                {selected_book.desc}
               </Typography>
             </CardContent>
           </Card>
