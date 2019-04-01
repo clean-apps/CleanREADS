@@ -11,8 +11,8 @@ class BooksTable extends Component {
           <NavLink to={"/detail/" + each_book.id}>
             <img
               className="book_thumbnail"
-              src={each_book.volumeInfo.imageLinks.smallThumbnail}
-              alt={each_book.volumeInfo.title}
+              src={each_book.thumbnail}
+              alt={each_book.title}
             />
           </NavLink>
         </LazyLoad>
