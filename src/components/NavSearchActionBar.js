@@ -64,7 +64,7 @@ class NavSearchActionBar extends Component {
     const { classes } = this.props;
 
     return (
-      <div className={classes.root}>
+      <div class={classes.root}>
         <AppBar position="static" className={classes.appBar}>
           <Toolbar>
             <NavLink to={"/"}>
