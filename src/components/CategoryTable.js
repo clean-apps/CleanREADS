@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { withStyles } from "@material-ui/core/styles";
+import { NavLink } from "react-router-dom";
 import Icon from "@material-ui/core/Icon";
 
 const styles = {
@@ -23,34 +24,38 @@ const styles = {
     paddingTop: 20,
     paddingLeft: 20,
     paddingRight: 20
+  },
+  nohyperlink: {
+    textDecoration: "none"
   }
 };
 
 class CategoryTable extends Component {
-  _getListItem(classes, label, option, index) {
+  _getListItem(classes, label, icon, index) {
     return (
-      <div key={index} className={classes.tile} onClick={option.onClick}>
-        <Icon className={classes.icon}>{option.icon}</Icon>
-        <br />
-        <p className={classes.icon_label}>{label}</p>
-      </div>
+      <NavLink className={classes.nohyperlink} to={"/category/" + label}>
+        <div key={index} className={classes.tile}>
+          <Icon className={classes.icon}>{icon}</Icon>
+          <br />
+          <p className={classes.icon_label}>{label}</p>
+        </div>
+      </NavLink>
     );
   }
 
   render() {
     const { classes } = this.props;
 
-    var category_labels = Object.keys(this.props.categories);
-    var category_options = Object.values(this.props.categories);
-
-    var category_collection = category_labels.map((each_category, index) => {
-      return this._getListItem(
-        classes,
-        each_category,
-        category_options[index],
-        index
-      );
-    });
+    var category_collection = this.props.categories.map(
+      (each_category, index) => {
+        return this._getListItem(
+          classes,
+          each_category.text,
+          each_category.icon,
+          index
+        );
+      }
+    );
 
     return (
       <div className={classes.horizontal_scroll}>{category_collection}</div>

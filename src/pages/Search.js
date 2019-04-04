@@ -4,7 +4,7 @@ import { withStyles } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Nav from "../components/NavSearchActionBar";
 import BooksList from "../components/BooksListSearch";
-import { search_books } from "../actions/books_list_action";
+import { search_books } from "../actions/books_list_actions";
 
 import "./Home.css";
 

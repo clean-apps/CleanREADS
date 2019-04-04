@@ -13,6 +13,7 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import ListIcon from "@material-ui/icons/List";
+import { NavLink } from "react-router-dom";
 import Icon from "@material-ui/core/Icon";
 
 const styles = theme => ({
@@ -38,6 +39,9 @@ const styles = theme => ({
   },
   appBar: {
     background: "#009688"
+  },
+  nohyperlink: {
+    textDecoration: "none"
   }
 });
 
@@ -60,35 +64,37 @@ class NavActionBar extends Component {
     const sideList = (
       <div className={classes.list}>
         <List>
-          {Object.keys(this.props.lists).map((text, index) => (
-            <ListItem
-              button
-              key={text}
-              onClick={this.props.lists[text]}
-              aria-label={text}
+          {this.props.lists.map(list_item => (
+            <NavLink
+              className={classes.nohyperlink}
+              to={"/lists/" + list_item.text}
             >
-              <ListItemIcon>
-                <ListIcon />
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItem>
+              <ListItem button key={list_item.text} aria-label={list_item.text}>
+                <ListItemIcon>
+                  <Icon className={classes.icon}>{list_item.icon}</Icon>
+                </ListItemIcon>
+                <ListItemText primary={list_item.text} />
+              </ListItem>
+            </NavLink>
           ))}
         </List>
         <Divider />
         <List>
-          {Object.keys(this.props.categories).map((text, index) => (
+          {this.props.categories.map((each_category, index) => (
             <ListItem
               button
-              key={text}
-              onClick={this.props.categories[text].onClick}
-              aria-label={text}
+              key={each_category.text}
+              aria-label={each_category.text}
             >
-              <ListItemIcon>
-                <Icon className={classes.icon}>
-                  {this.props.categories[text].icon}
-                </Icon>
-              </ListItemIcon>
-              <ListItemText primary={text} />
+              <NavLink
+                className={classes.nohyperlink}
+                to={"/category/" + each_category.text}
+              >
+                <ListItemIcon>
+                  <Icon className={classes.icon}>{each_category.icon}</Icon>
+                </ListItemIcon>
+                <ListItemText primary={each_category.text} />
+              </NavLink>
             </ListItem>
           ))}
         </List>

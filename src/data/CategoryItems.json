@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Music",
+    "icon": "music_note"
+  },
+  {
+    "text": "Art",
+    "icon": "format_paint"
+  },
+  {
+    "text": "Fitness",
+    "icon": "fitness_center"
+  },
+  {
+    "text": "Drama",
+    "icon": "filter_drama"
+  },
+  {
+    "text": "Thriller",
+    "icon": "format_size"
+  }
+]
