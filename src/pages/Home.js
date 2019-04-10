@@ -48,13 +48,17 @@ class Home extends Component {
           categories={books_list.category_items}
         />
 
-        <p className="title_header">Favorites</p>
+        <p hidden={books_list.fav_books.length === 0} className="title_header">
+          Favorites
+        </p>
         <BooksTable books={books_list.fav_books} />
 
         <p className="title_header">Categories</p>
         <CategoryTable categories={books_list.category_items} />
 
-        <p className="title_header">Recently Added</p>
+        <p hidden={books_list.all_books.length === 0} className="title_header">
+          Recently Added
+        </p>
         <BooksList books={books_list.all_books} />
         <Fab />
       </div>

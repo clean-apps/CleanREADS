@@ -14,7 +14,8 @@ import Book from "@material-ui/icons/Book";
 import Rating from "material-ui-rating";
 import Favorite from "@material-ui/icons/Favorite";
 import FavoriteBorder from "@material-ui/icons/FavoriteBorder";
-import { get_book_by_id_action } from "../actions/books_list_actions";
+import { search_book_by_id_action } from "../actions/books_list_actions";
+import SelectListDialog from "./SelectListDialog";
 
 import "./Home.css";
 
@@ -77,23 +78,40 @@ const styles = theme => ({
 });
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
-  get_book_by_id_action: () =>
-    dispatch(get_book_by_id_action(ownProps.match.params.volume_id))
+  search_book_by_id_action: () =>
+    dispatch(search_book_by_id_action(ownProps.match.params.volume_id))
 });
 
 const mapStateToProps = state => ({
   ...state
 });
 
-class Detail extends Component {
+class SearchDetail extends Component {
   componentWillMount() {
-    this.props.get_book_by_id_action();
+    this.props.search_book_by_id_action();
   }
+
+  state = {
+    open_lists_selection: false
+  };
+
+  handleListViewOpen = event => {
+    console.log("clicked handleListViewOpen");
+    this.setState({
+      open_lists_selection: true
+    });
+  };
+
+  handleListViewClose = value => {
+    this.props.books_list.selected_book.list_name = value;
+    this.setState({
+      open_lists_selection: false
+    });
+  };
 
   render() {
     const { classes } = this.props;
     var { selected_book } = this.props.books_list;
-    console.log("selected_book " + JSON.stringify(selected_book));
     var countProps = Object.getOwnPropertyNames(selected_book).length;
 
     if (countProps === 0) {
@@ -134,13 +152,21 @@ class Detail extends Component {
                 >
                   {selected_book.authors}
                 </Typography>
+                <SelectListDialog
+                  selectedValue={selected_book.list_name}
+                  open={this.state.open_lists_selection}
+                  onClose={this.handleListViewClose}
+                />
                 <Button
-                  aria-label="MyLIST1"
+                  aria-label={selected_book.list_name}
                   size="small"
                   className={classes.lists}
+                  onClick={() => this.handleListViewOpen()}
                 >
                   <List className={classes.extendedIcon} />
-                  MyLIST1
+                  {selected_book.list_name == null
+                    ? "Add To List"
+                    : selected_book.list_name}
                 </Button>
                 <Rating value={selected_book.rating} max={5} readOnly={true} />
               </div>
@@ -184,5 +210,5 @@ export default withStyles(styles)(
   connect(
     mapStateToProps,
     mapDispatchToProps
-  )(Detail)
+  )(SearchDetail)
 );

@@ -8,6 +8,7 @@ import configureStore from "./store";
 import "./index.css";
 import Home from "./pages/Home";
 import Detail from "./pages/Detail";
+import SearchDetail from "./pages/SearchDetail";
 import Search from "./pages/Search";
 import registerServiceWorker from "./registerServiceWorker";
 
@@ -17,6 +18,7 @@ ReactDOM.render(
   <Provider store={configureStore()}>
     <Router>
       <Route exact path="/detail/:volume_id" component={Detail} />
+      <Route exact path="/searchdetail/:volume_id" component={SearchDetail} />
       <Route exact path="/search" component={Search} />
       <Route exact path="/" component={Home} />
     </Router>

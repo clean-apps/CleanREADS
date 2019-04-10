@@ -6,7 +6,9 @@ export default (
     searched_books: [],
     search_text: "",
     list_items: [],
-    category_items: []
+    category_items: [],
+    added_book: {},
+    modified_book: {}
   },
   action
 ) => {
@@ -36,6 +38,12 @@ export default (
         search_text: action.payload.search_txt
       };
 
+    case "SEARCH_BOOK_BY_ID":
+      return {
+        ...state,
+        selected_book: action.payload
+      };
+
     case "GET_LISTS":
       return {
         ...state,
@@ -46,6 +54,18 @@ export default (
       return {
         ...state,
         category_items: action.payload
+      };
+
+    case "ADD_BOOK":
+      return {
+        ...state,
+        added_book: action.payload
+      };
+
+    case "MARK_FAV":
+      return {
+        ...state,
+        modified_book: action.payload
       };
 
     default:

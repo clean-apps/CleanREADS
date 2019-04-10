@@ -3,6 +3,7 @@ import { withStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
 import ListIcon from "@material-ui/icons/List";
 import FavoriteIcon from "@material-ui/icons/Favorite";
+import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import Paper from "@material-ui/core/Paper";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
@@ -74,41 +75,49 @@ const styles = theme => ({
   }
 });
 
-const bookshelfDB = new BookshelfDB();
+let db = BookshelfDB.getInstance();
 
 class BooksListSearch extends Component {
   _getListItem(classes, each_book, index) {
-    var is_added_to_list = bookshelfDB.get_book_by_volid(
-      each_book.id,
-      () => {}
-    );
-    console.log(is_added_to_list);
-    var actions = is_added_to_list
-      ? () => {
-          <CardActions className={classes.cardActions}>
-            <IconButton
-              aria-label="add to list"
-              size="small"
-              color="primary"
-              className={classes.button}
-            >
-              <ListIcon />
-            </IconButton>
-          </CardActions>;
-        }
+    var book_fromDb = db.get_book_by_volid(each_book.id, () => {});
+    console.log(book_fromDb);
+
+    var fav_action = book_fromDb
+      ? book_fromDb.is_fav
+        ? () => {
+            <IconButton aria-label={book_fromDb.is_fav} size="small">
+              <FavoriteIcon />
+            </IconButton>;
+          }
+        : () => {
+            <IconButton aria-label={book_fromDb.is_fav} size="small">
+              <FavoriteBorderIcon />
+            </IconButton>;
+          }
       : "";
+
+    var list_action = book_fromDb ? (
+      () => {
+        "";
+      }
+    ) : (
+      <IconButton aria-label="add to favorite" size="small">
+        <ListIcon />
+      </IconButton>
+    );
+
+    let book_detail = book_fromDb
+      ? "/detail/" + each_book.vol_id
+      : "/searchdetail/" + each_book.vol_id;
 
     return (
       <Paper key={index} className={classes.paper} elevation={0} component="li">
-        <NavLink
-          className={classes.nohyperlink}
-          to={"/searchdetail/" + each_book.vol_id}
-        >
+        <NavLink className={classes.nohyperlink} to={book_detail}>
           <Card className={classes.card}>
             <LazyLoad width={100} height={150} debounce={false} throttle={250}>
               <CardMedia
                 className={classes.media}
-                image={each_book.volumeInfo.thumbnail}
+                image={each_book.thumbnail}
                 title={each_book.title}
               />
             </LazyLoad>
@@ -127,17 +136,13 @@ class BooksListSearch extends Component {
               </Typography>
 
               <Typography className={classes.desc} variant="h5" component="h2">
-                {each_book.desc}
+                {each_book.short_desc}
               </Typography>
             </CardContent>
 
             <CardActions className={classes.cardActions}>
-              <IconButton aria-label="add to favorite" size="small">
-                <FavoriteIcon />
-              </IconButton>
-              <IconButton aria-label="add to list" size="small">
-                <ListIcon />
-              </IconButton>
+              {fav_action}
+              {list_action}
             </CardActions>
           </Card>
         </NavLink>
