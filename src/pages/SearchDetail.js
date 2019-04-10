@@ -14,7 +14,11 @@ import Book from "@material-ui/icons/Book";
 import Rating from "material-ui-rating";
 import Favorite from "@material-ui/icons/Favorite";
 import FavoriteBorder from "@material-ui/icons/FavoriteBorder";
-import { search_book_by_id_action } from "../actions/books_list_actions";
+import {
+  search_book_by_id_action,
+  add_book_tolist,
+  mark_book_asfav
+} from "../actions/books_list_actions";
 import SelectListDialog from "./SelectListDialog";
 
 import "./Home.css";
@@ -79,7 +83,10 @@ const styles = theme => ({
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
   search_book_by_id_action: () =>
-    dispatch(search_book_by_id_action(ownProps.match.params.volume_id))
+    dispatch(search_book_by_id_action(ownProps.match.params.volume_id)),
+  add_book_tolist: (book, list_name, is_fav) =>
+    dispatch(add_book_tolist(book, list_name, is_fav)),
+  mark_book_asfav: (book, is_fav) => dispatch(mark_book_asfav(book, is_fav))
 });
 
 const mapStateToProps = state => ({
@@ -104,9 +111,26 @@ class SearchDetail extends Component {
 
   handleListViewClose = value => {
     this.props.books_list.selected_book.list_name = value;
+
+    if (value === "Add A List") {
+    } else {
+      this.props.search_book_by_id_action(
+        this.props.books_list.selected_book,
+        value,
+        this.props.books_list.selected_book.is_fav
+      );
+    }
+
     this.setState({
       open_lists_selection: false
     });
+  };
+
+  markFavorite = () => {
+    this.props.mark_book_asfav(
+      this.props.books_list.selected_book,
+      !this.props.books_list.selected_book.is_fav
+    );
   };
 
   render() {
@@ -117,6 +141,15 @@ class SearchDetail extends Component {
     if (countProps === 0) {
       return <div className="App" />;
     } else {
+      var fav_text = selected_book.is_fav ? "Remove  Favorite" : "Add Favorite";
+      var fav_icon = selected_book.is_fav
+        ? () => {
+            <Favorite className={classes.extendedIcon} />;
+          }
+        : () => {
+            <FavoriteBorder className={classes.extendedIcon} />;
+          };
+
       return (
         <div className="App">
           <CssBaseline />
@@ -179,15 +212,17 @@ class SearchDetail extends Component {
                   variant="outlined"
                   aria-label="Add Favorite"
                   size="small"
+                  disbled={selected_book.list_name != null}
+                  onClick={() => this.markFavorite()}
                   className={classes.fab_fav}
                 >
-                  <FavoriteBorder className={classes.extendedIcon} />
-                  Add Favorite
+                  {fav_icon}
+                  {fav_text}
                 </Button>
                 <Button
                   color="primary"
                   variant="contained"
-                  aria-label="Add To List"
+                  aria-label="Go to Google Books"
                   size="small"
                   className={classes.fab_fav}
                 >

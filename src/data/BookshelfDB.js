@@ -49,6 +49,9 @@ class BookshelfDB {
       })
       .then(() => {
         this.get_book_by_volid(each_book.vol_id, callback);
+      })
+      .catch(function(err) {
+        console.log(err);
       });
   }
 
@@ -74,7 +77,10 @@ class BookshelfDB {
   async get_books_by_list(list_name, callback) {
     var those_books = await this.db.all_books
       .where("list_name")
-      .equals(list_name);
+      .equals(list_name)
+      .catch(function(err) {
+        console.log(err);
+      });
     callback(those_books);
     return those_books;
   }
@@ -109,6 +115,9 @@ class BookshelfDB {
       })
       .then(() => {
         this.get_all_lists(callback);
+      })
+      .catch(function(err) {
+        console.log(err);
       });
   }
 
@@ -135,7 +144,10 @@ class BookshelfDB {
     var that_book = await this.db.all_books
       .where("vol_id")
       .equals(vol_id)
-      .modify({ is_fav: is_fav });
+      .modify({ is_fav: is_fav })
+      .catch(function(err) {
+        console.log(err);
+      });
     callback(that_book);
     return that_book;
   }
