@@ -8,8 +8,6 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 import { grey } from "@material-ui/core/colors";
 import LazyLoad from "react-lazy-load";
-import Button from "@material-ui/core/Button";
-import CardActions from "@material-ui/core/CardActions";
 import { NavLink } from "react-router-dom";
 
 const styles = theme => ({
@@ -104,8 +102,8 @@ class BooksList extends Component {
   }
 
   render() {
-    const { classes } = this.props;
-    var books_collection = this.props.books.map((each_book, index) => {
+    const { classes, books } = this.props;
+    var books_collection = books.map((each_book, index) => {
       return this._getListItem(classes, each_book, index);
     });
 

@@ -12,7 +12,6 @@ import Divider from "@material-ui/core/Divider";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
-import ListIcon from "@material-ui/icons/List";
 import { NavLink } from "react-router-dom";
 import Icon from "@material-ui/core/Icon";
 
@@ -64,8 +63,9 @@ class NavActionBar extends Component {
     const sideList = (
       <div className={classes.list}>
         <List>
-          {this.props.lists.map(list_item => (
+          {this.props.lists.map((list_item, index) => (
             <NavLink
+              key={index}
               className={classes.nohyperlink}
               to={"/lists/" + list_item.text}
             >

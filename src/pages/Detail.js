@@ -12,7 +12,7 @@ import Button from "@material-ui/core/Button";
 import List from "@material-ui/icons/List";
 import Book from "@material-ui/icons/Book";
 import Rating from "material-ui-rating";
-import Favorite from "@material-ui/icons/Favorite";
+//import Favorite from "@material-ui/icons/Favorite";
 import FavoriteBorder from "@material-ui/icons/FavoriteBorder";
 import { get_book_by_id_action } from "../actions/books_list_actions";
 
@@ -93,7 +93,6 @@ class Detail extends Component {
   render() {
     const { classes } = this.props;
     var { selected_book } = this.props.books_list;
-    console.log("selected_book " + JSON.stringify(selected_book));
     var countProps = Object.getOwnPropertyNames(selected_book).length;
 
     if (countProps === 0) {

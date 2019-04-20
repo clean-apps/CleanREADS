@@ -33,8 +33,12 @@ const styles = {
 class CategoryTable extends Component {
   _getListItem(classes, label, icon, index) {
     return (
-      <NavLink className={classes.nohyperlink} to={"/category/" + label}>
-        <div key={index} className={classes.tile}>
+      <NavLink
+        key={index}
+        className={classes.nohyperlink}
+        to={"/category/" + label}
+      >
+        <div className={classes.tile}>
           <Icon className={classes.icon}>{icon}</Icon>
           <br />
           <p className={classes.icon_label}>{label}</p>

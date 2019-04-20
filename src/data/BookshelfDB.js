@@ -9,19 +9,6 @@ class BookshelfDB {
       lists: "++id, &list_name",
       all_books: "++id, &vol_id, category, list_name, is_fav"
     });
-
-    let insert_dummy_data = false;
-    if (insert_dummy_data) {
-      let fav_books_data = require("./GoogleBooksHarrari.json");
-      fav_books_data.items.map(each_book => {
-        this.add_book(each_book, "To Read", true, () => {});
-      });
-
-      let all_books_data = require("./GoogleBooksPotter.json");
-      all_books_data.items.map(each_book => {
-        this.add_book(each_book, "Currently Reading", false, () => {});
-      });
-    }
   }
 
   static getInstance() {
@@ -33,32 +20,27 @@ class BookshelfDB {
   }
 
   add_book(each_book, list_name, is_fav, callback) {
-    this.db.all_books
-      .add({
-        vol_id: each_book.vol_id,
-        title: each_book.title,
-        authors: each_book.authors,
-        short_desc: each_book.short_desc,
-        desc: each_book.desc.description,
-        thumbnail: each_book.thumbnail,
-        rating: each_book.rating,
-        category: each_book.category,
-        gbooks_url: each_book.gbooks_url,
-        list_name: list_name,
-        is_fav: is_fav
-      })
-      .then(() => {
-        this.get_book_by_volid(each_book.vol_id, callback);
-      })
-      .catch(function(err) {
-        console.log(err);
-      });
+    let book_to_add = {
+      vol_id: each_book.vol_id,
+      title: each_book.title,
+      authors: each_book.authors,
+      short_desc: each_book.short_desc,
+      desc: each_book.desc.description,
+      thumbnail: each_book.thumbnail,
+      rating: each_book.rating,
+      category: each_book.category,
+      gbooks_url: each_book.gbooks_url,
+      list_name: list_name,
+      is_fav: is_fav
+    };
+
+    this.db.all_books.add(book_to_add).then(() => {
+      this.get_book_by_volid(each_book.vol_id, callback);
+    });
   }
 
   async get_all_books(callback) {
-    var books_data = await this.db.all_books.catch(function(err) {
-      console.log(err);
-    });
+    var books_data = await this.db.all_books.toArray();
     callback(books_data);
     return books_data;
   }
@@ -67,9 +49,7 @@ class BookshelfDB {
     var that_book = await this.db.all_books
       .where("vol_id")
       .equals(vol_id)
-      .catch(function(err) {
-        console.log(err);
-      });
+      .first();
     callback(that_book);
     return that_book;
   }
@@ -78,9 +58,7 @@ class BookshelfDB {
     var those_books = await this.db.all_books
       .where("list_name")
       .equals(list_name)
-      .catch(function(err) {
-        console.log(err);
-      });
+      .toArray();
     callback(those_books);
     return those_books;
   }
@@ -89,9 +67,7 @@ class BookshelfDB {
     var those_books = await this.db.all_books
       .where("category")
       .equals(category_name)
-      .catch(function(err) {
-        console.log(err);
-      });
+      .toArray();
     callback(those_books);
     return those_books;
   }
@@ -99,10 +75,8 @@ class BookshelfDB {
   async get_fav_books(callback) {
     var those_books = await this.db.all_books
       .where("is_fav")
-      .equals(true)
-      .catch(function(err) {
-        console.log(err);
-      });
+      .equals("true")
+      .toArray();
     callback(those_books);
     return those_books;
   }
@@ -115,9 +89,6 @@ class BookshelfDB {
       })
       .then(() => {
         this.get_all_lists(callback);
-      })
-      .catch(function(err) {
-        console.log(err);
       });
   }
 

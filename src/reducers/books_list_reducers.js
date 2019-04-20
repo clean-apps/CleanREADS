@@ -59,13 +59,13 @@ export default (
     case "ADD_BOOK":
       return {
         ...state,
-        added_book: action.payload
+        selected_book: action.payload
       };
 
     case "MARK_FAV":
       return {
         ...state,
-        modified_book: action.payload
+        selected_book: action.payload
       };
 
     default:

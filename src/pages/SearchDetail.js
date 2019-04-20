@@ -84,8 +84,10 @@ const styles = theme => ({
 const mapDispatchToProps = (dispatch, ownProps) => ({
   search_book_by_id_action: () =>
     dispatch(search_book_by_id_action(ownProps.match.params.volume_id)),
+
   add_book_tolist: (book, list_name, is_fav) =>
     dispatch(add_book_tolist(book, list_name, is_fav)),
+
   mark_book_asfav: (book, is_fav) => dispatch(mark_book_asfav(book, is_fav))
 });
 
@@ -103,27 +105,22 @@ class SearchDetail extends Component {
   };
 
   handleListViewOpen = event => {
-    console.log("clicked handleListViewOpen");
     this.setState({
       open_lists_selection: true
     });
   };
 
   handleListViewClose = value => {
-    this.props.books_list.selected_book.list_name = value;
+    let { selected_book } = this.props.books_list;
+    selected_book.list_name = value;
 
     if (value === "Add A List") {
     } else {
-      this.props.search_book_by_id_action(
-        this.props.books_list.selected_book,
-        value,
-        this.props.books_list.selected_book.is_fav
-      );
+      this.props.add_book_tolist(selected_book, value, selected_book.is_fav);
+      this.setState({
+        open_lists_selection: false
+      });
     }
-
-    this.setState({
-      open_lists_selection: false
-    });
   };
 
   markFavorite = () => {
@@ -142,13 +139,11 @@ class SearchDetail extends Component {
       return <div className="App" />;
     } else {
       var fav_text = selected_book.is_fav ? "Remove  Favorite" : "Add Favorite";
-      var fav_icon = selected_book.is_fav
-        ? () => {
-            <Favorite className={classes.extendedIcon} />;
-          }
-        : () => {
-            <FavoriteBorder className={classes.extendedIcon} />;
-          };
+      var fav_icon = selected_book.is_fav ? (
+        <Favorite className={classes.extendedIcon} />
+      ) : (
+        <FavoriteBorder className={classes.extendedIcon} />
+      );
 
       return (
         <div className="App">
@@ -212,7 +207,7 @@ class SearchDetail extends Component {
                   variant="outlined"
                   aria-label="Add Favorite"
                   size="small"
-                  disbled={selected_book.list_name != null}
+                  disabled={selected_book.list_name != null}
                   onClick={() => this.markFavorite()}
                   className={classes.fab_fav}
                 >
